@@ -38,6 +38,11 @@ import psycopg
 from psycopg import sql
 from tqdm import tqdm
 
+if __package__:
+    from .wiki_text import extract_summary, TEXT_VERSION
+else:
+    from wiki_text import extract_summary, TEXT_VERSION
+
 FILES = [
     'zhwiki-latest-pages-articles-multistream.xml.bz2',
     'zhwiki-latest-categorylinks.sql.gz',
@@ -258,8 +263,7 @@ def parse_sections(text):
             counters[i] = 0
         number = '.'.join(str(n) for n in counters[:level] if n)
         sections.append({'text': heading, 'number': number, 'level': level})
-    lead = text[:matches[0].start()] if matches else text
-    summary = re.sub(r'\s+', ' ', strip_wiki(lead)).strip()[:600]
+    summary = extract_summary(text)
     return sections, summary
 
 
@@ -354,7 +358,7 @@ def stage(directory, snapshot, max_pages=None):
                     if not eligible(title, plain_chars, sections, cats, rules):
                         continue
                     payload = {'id': str(pageid), 'title': title, 'canonical': title,
-                               'aliases': [title], 'sections': sections, 'summary': summary,
+                               'aliases': [title], 'sections': sections, 'summary': summary, 'textVersion': TEXT_VERSION,
                                'categories': cats, 'category': '待归类', 'topics': [],
                                'revision': int(revid or 0), 'chars': plain_chars,
                                'views': None, 'taxonomyVersion': 1, 'snapshot': snapshot}
@@ -650,6 +654,51 @@ def repair_categories(directory, snapshot, max_depth):
             catalog.close()
 
 
+def repair_summary_batch(conn, pages, snapshot, apply=False):
+    """Patch only summaries, preserving concurrently edited metadata and players."""
+    with conn.transaction(), conn.cursor() as cur:
+        cur.execute('SELECT id,data FROM articles WHERE id=ANY(%s)', ([p[0] for p in pages],))
+        existing = {row[0]: json.loads(row[1]) for row in cur.fetchall()}
+        changed = 0
+        for pageid, revision, text in pages:
+            current = existing.get(pageid)
+            if (not current or current.get('snapshot') != snapshot
+                    or int(current.get('revision') or 0) != revision
+                    or current.get('textVersion') == TEXT_VERSION):
+                continue
+            patch = json.dumps({'summary': extract_summary(text), 'textVersion': TEXT_VERSION}, ensure_ascii=False)
+            if apply:
+                cur.execute("""UPDATE articles SET data=(data::jsonb || %s::jsonb)::text
+                    WHERE id=%s AND data::jsonb->>'snapshot'=%s
+                    AND data::jsonb->>'revision'=%s
+                    AND data::jsonb->>'summary' IS NOT DISTINCT FROM %s
+                    AND data::jsonb->>'textVersion' IS DISTINCT FROM %s""",
+                    (patch, pageid, snapshot, str(revision), current.get('summary'), str(TEXT_VERSION)))
+                changed += cur.rowcount
+            else:
+                changed += 1
+        return changed
+
+
+def repair_summaries(directory, snapshot, apply=False):
+    """Stream the original local snapshot; resumable, 200 articles per transaction."""
+    compressed, *_ = verify_local(directory)
+    count, pages = 0, []
+    with db() as conn:
+        for ns, title, pageid, redirect, revid, text in wiki_pages(compressed):
+            if ns != 0 or redirect or not pageid:
+                continue
+            pages.append((pageid, int(revid or 0), text))
+            if len(pages) >= 200:
+                count += repair_summary_batch(conn, pages, snapshot, apply)
+                pages.clear()
+        if pages:
+            count += repair_summary_batch(conn, pages, snapshot, apply)
+    print('Updated' if apply else 'Would update', count, 'article summaries.')
+    if not apply:
+        print('Dry run only. Add --apply to save; player tables and article eligibility are unchanged.')
+
+
 def automatic(directory, max_depth, should_activate):
     """Operate on the newest local YYYY-MM directory; never access the Internet."""
     if not directory.is_dir():
@@ -696,13 +745,15 @@ def automatic(directory, max_depth, should_activate):
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     sub = ap.add_subparsers(dest='action', required=True)
-    for action in ('check', 'stage', 'classify', 'repair-categories'):
+    for action in ('check', 'stage', 'classify', 'repair-categories', 'repair-summaries'):
         p = sub.add_parser(action)
         p.add_argument('--directory', type=Path, default=Path('wiki-dumps'))
         if action != 'check':
             p.add_argument('--snapshot', required=True)
         if action == 'stage':
             p.add_argument('--max-pages', type=int, help='TEST ONLY: stop after N eligible pages')
+        if action == 'repair-summaries':
+            p.add_argument('--apply', action='store_true', help='Write summaries; otherwise preview the count only')
         if action in ('classify', 'repair-categories'):
             p.add_argument('--max-depth', type=int, default=7)
     p = sub.add_parser('activate')
@@ -723,6 +774,8 @@ def main():
         classify(args.directory, args.snapshot, args.max_depth)
     elif args.action == 'repair-categories':
         repair_categories(args.directory, args.snapshot, args.max_depth)
+    elif args.action == 'repair-summaries':
+        repair_summaries(args.directory, args.snapshot, args.apply)
     elif args.action == 'activate':
         activate(args.snapshot, args.confirm, args.min_articles)
     elif args.action == 'auto':

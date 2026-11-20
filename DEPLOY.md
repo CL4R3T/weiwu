@@ -162,7 +162,7 @@ export DATABASE_URL='postgresql://weiwu:密码@127.0.0.1:5432/weiwu'
 ### 目录、摘要和热度的重要限制
 
 - 离线 Wikitext 解析对模板嵌入目录的支持不等同于 MediaWiki 官方渲染器。精选题及上线前抽样需与中文维基页面的实际目录核对；复杂词条应通过官方解析 API 再校验。
-- 摘要来自导言 Wikitext 清理，最多约 600 字符，不是生成式 AI 摘要。
+- 摘要提取首个有效导言段，排除图片、图注、表格及参考注释，约 600 字符处按完整句子结束；首句特别长时保留完整首句。常见文字模板有专门处理，未知模板不会展开，不是生成式 AI 摘要。
 - **快照不含最近 30 天浏览量**。新词条先处于 `pending_views`，首次候选时由服务端获取 Wikimedia 浏览量并应用原热度规则；校验通过后变为 `active`。这会让未预热的随机题首次响应较慢，需要生产前预热已选题库。
 - WikiRank 评分也不在官方正文快照里，继续作为独立可选数据来源。
 - 保留正确归属：使用 Wikipedia 文字时显示相应的词条原文链接、许可说明与来源，并按 CC BY-SA 4.0 条款处理再利用内容。
@@ -210,3 +210,24 @@ sudo systemctl list-timers weiwu-wiki-snapshot.timer
 应用更新只需保留 `.env` 和 PostgreSQL 数据，更新代码后 `docker compose up -d --build`。正式更新前用 `pg_dump -Fc` 做数据库备份，并在另一数据库演练恢复。`wiki_articles_before_YYYY_MM` 是单独的词条回退表，不是整个 PostgreSQL 备份；不能取代数据库备份。
 
 不要在完成完整导出和验收前删除或停用 ChatGPT Sites 旧站。只有确认新站稳定后，才停掉旧站排期任务，以免产生两套日题。
+
+
+## 9. 简体展示与修复旧简介
+
+更新此分支后执行 `npm ci`、`npm run build` 并重启服务（Docker 可用 `docker compose up -d --build`）。网站中的维基标题、目录、简介、历史词条标题和管理预览统一显示简体；遮字前先转换字形，简繁答案均可匹配。维基原始标题、page ID、URL、玩家昵称与评论不改写。
+
+精选题库标题下显示当前可供抽取的词条总量：包含人工精选和自动精选，排除移除、屏蔽和归档词条；不扣除玩家答过的题目。进入玩法、开始下一题、评价或窗口重新获得焦点时更新数量。
+
+新导入的快照自动使用新的简介提取方式。**已导入的简介不会凭空恢复，需要用当时导入的本地快照修复一次**。在已安装 `requirements-snapshot.txt`、已设置 `DATABASE_URL` 的环境中执行（按实际目录、快照 ID 替换）：
+
+```bash
+# 先统计需要修复的数量，不写入数据库
+.venv/bin/python scripts/wiki_snapshot.py repair-summaries --directory /var/lib/weiwu/wiki-dumps/2026-11 --snapshot 2026-11
+
+# 分批更新现有简介
+.venv/bin/python scripts/wiki_snapshot.py repair-summaries --directory /var/lib/weiwu/wiki-dumps/2026-11 --snapshot 2026-11 --apply
+```
+
+命令先校验本地快照文件，然后流式读取 XML；每批最多 200 条，只有快照 ID 和 revision 都匹配的现有词条才会更新。仅修改 `articles.data` 中的 `summary` 和 `textVersion`，不重建题库，不修改分类、筛选、精选、排期、玩家记录和成绩。重复执行会跳过已修复词条，支持中断后重跑。已完成题目的揭晓页会读取同一 revision 的修复简介；其原目录快照和计时仍保留。未使用快照导入或 revision 不匹配的词条不会被此命令覆盖。
+
+本地回归检查：`npm run test:wiki`（需要 Node.js 22.13+、Python 及快照依赖），以及 `npx tsc --noEmit`、`npm run build`。

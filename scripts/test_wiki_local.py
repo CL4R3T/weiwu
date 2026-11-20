@@ -11,7 +11,7 @@ import types
 import unittest
 
 # Loading only the local validator does not need the actual parsing/DB drivers.
-for module in ('mwparserfromhell', 'psycopg', 'psycopg.sql'):
+for module in ('psycopg', 'psycopg.sql'):
     if module not in sys.modules:
         sys.modules[module] = types.ModuleType(module)
 spec = importlib.util.spec_from_file_location('wiki_snapshot', Path(__file__).with_name('wiki_snapshot.py'))
