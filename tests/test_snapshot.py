@@ -30,7 +30,7 @@ class SnapshotTests(unittest.TestCase):
             self.assertEqual(len(rows), 3)
             self.assertEqual(rows[0][2], 10)
             self.assertEqual(rows[2][3], '示例猫')
-            sample = "INSERT INTO `categorylinks` VALUES (10,'火车','',0),(88,'交通','',0);\n"
+            sample = "CREATE TABLE `categorylinks` (\n  `cl_from` int,\n  `cl_to` text,\n  `cl_sortkey` text,\n  `cl_type` int\n) ENGINE=InnoDB;\nINSERT INTO `categorylinks` VALUES (10,'火车','',0),(88,'交通','',0);\n"
             (root/'categories.sql.gz').write_bytes(gzip.compress(sample.encode()))
             catalog = category_catalog(root/'categories.sql.gz', root/'cache.sqlite3')
             catalog.execute("INSERT INTO category_pages VALUES(88,'火车')")

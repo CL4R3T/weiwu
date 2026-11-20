@@ -1,0 +1,34 @@
+import assert from 'node:assert/strict';
+import {DatabaseSync} from 'node:sqlite';
+import {simplifiedDisplay} from '../lib/chinese';
+import {maskSections,match,hints} from '../lib/game';
+import {featuredCount,FEATURED_WHERE} from '../lib/server/featured';
+
+const article={id:'1',title:'臺灣貓',canonical:'臺灣貓',aliases:[],category:'自然與科學',fetchedAt:'',sections:[{text:'台灣貓的歷史',number:'1',level:1}]};
+assert.equal(maskSections(article)[0].text,'■■■的历史');
+assert(match(article,'台湾猫'));
+assert(match(article,'臺灣貓'));
+assert(!match(article,'台湾'));
+assert(match({...article,title:'貓（動物）'},'猫'));
+assert.equal(hints(article,3)[2],'第一个字：台');
+const response=simplifiedDisplay({result:{...article,summary:'貓的歷史。',url:'https://zh.wikipedia.org/wiki/臺灣貓'},sections:article.sections,records:[{title:'臺灣貓'}],user:{nickname:'臺灣貓',username:'臺灣貓'},guesses:[{text:'臺灣貓'}],comments:[{body:'臺灣貓'}]});
+assert.equal(response.sections[0].text,'台湾猫的历史');
+assert.equal(response.result.summary,'猫的历史。');
+assert.equal(response.records[0].title,'台湾猫');
+assert.equal(response.result.canonical,'臺灣貓');
+assert.equal(response.result.url,'https://zh.wikipedia.org/wiki/臺灣貓');
+assert.equal(response.user.nickname,'臺灣貓');
+assert.equal(response.guesses[0].text,'臺灣貓');
+assert.equal(response.comments[0].body,'臺灣貓');
+
+const sql=new DatabaseSync(':memory:');
+sql.exec('CREATE TABLE articles(id INTEGER PRIMARY KEY,featured INTEGER,status TEXT); CREATE TABLE exclusions(page_id INTEGER PRIMARY KEY)');
+const db={prepare:(query:string)=>({bind:()=>({first:async()=>sql.prepare(query).get()})})};
+assert.equal(await featuredCount(db),0);
+sql.exec("INSERT INTO articles VALUES(1,1,'active'),(2,2,'active'),(3,1,'pending_views'),(4,-1,'active'),(5,0,'active'),(6,1,'archived'),(7,2,'excluded'),(8,1,'active'); INSERT INTO exclusions VALUES(8)");
+assert.equal(await featuredCount(db),3);
+assert.equal(sql.prepare('SELECT COUNT(*) n FROM articles a WHERE '+FEATURED_WHERE).get()!.n,3);
+sql.exec('UPDATE articles SET featured=-1 WHERE id=1');
+assert.equal(await featuredCount(db),2);
+sql.close();
+console.log('PASS: simplified display, masking, answers, hints, identity preservation and featured count');
