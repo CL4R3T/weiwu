@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import {maskSections,normalize,beijingDate,dateIndex,match} from '../lib/game.ts';
+const a={id:'1',title:'薛定谔的猫',canonical:'薛定諤的貓',aliases:['薛定谔的猫','薛定諤的貓','薛定谔猫'],sections:[{text:'薛定谔的猫与薛定諤的貓',number:'1.2',level:2},{text:'实验的起源',number:'2',level:1}]};
+assert.equal(maskSections(a)[0].text,'■■■■■与■■■■■');
+assert.equal(maskSections(a)[1].text,'实验■起源');
+assert.equal(maskSections(a)[0].level,2);
+assert.equal(maskSections(a)[0].number,'1.2');
+assert.equal(beijingDate(new Date('2026-11-16T15:59:59Z')),'2026-11-16');
+assert.equal(beijingDate(new Date('2026-11-16T16:00:00Z')),'2026-11-17');
+assert.equal(dateIndex('2026-11-16',18),dateIndex('2026-11-16',18));
+assert.ok(dateIndex('2026-11-16',18)!==dateIndex('2026-11-17',18));
+assert.equal(match(a,'薛定諤的貓'),true);
+assert.equal(match(a,'薛定谔'),false);
+assert.equal(normalize(' 达·芬奇 '),'达芬奇');
+console.log('PASS: masking, hierarchy, Beijing midnight, daily consistency, aliases and exact matching');

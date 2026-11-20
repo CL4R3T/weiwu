@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';
+import React from 'react';
+import {renderToStaticMarkup} from 'react-dom/server';
+import {RecognitionRadar} from '../app/components/RecognitionRadar';
+import {recognitionAxes} from '../lib/recognition';
+const render=(rows:any[])=>renderToStaticMarkup(React.createElement(RecognitionRadar,{rows:recognitionAxes(rows)}));
+const empty=render([]);assert.equal((empty.match(/<button/g)||[]).length,8);assert(empty.includes('暂无已归类答题记录'));assert.equal((empty.match(/<circle/g)||[]).length,8);
+const sparse=render([{category:'nature',total:3,won:2}]);assert(sparse.includes('66.7%'));assert(sparse.includes('样本较少'));assert.equal((sparse.match(/<circle/g)||[]).length,8);assert(sparse.includes('fill="#b9cf7980"'));assert(!sparse.includes('NaN'));
+const all=recognitionAxes([]).map(r=>({category:r.id,total:10,won:7}));assert(render(all).includes('fill="#b9cf7980"'));
+console.log('PASS: radar empty/sparse/complete rendering, eight accessible categories, no invented missing scores.');

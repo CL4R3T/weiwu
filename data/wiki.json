@@ -1,0 +1,9352 @@
+[
+  {
+    "id": "1512587",
+    "title": "忒修斯之船",
+    "canonical": "忒修斯之船",
+    "aliases": [
+      "忒修斯之船"
+    ],
+    "category": "思想与社会",
+    "sections": [
+      {
+        "text": "总论",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "哲学家对此问题的讨论",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "赫拉克利特",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "亚里斯多德",
+        "level": 2,
+        "number": "2.2"
+      },
+      {
+        "text": "类似的悖论",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "赫拉克利特之河",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "祖父的旧斧头",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "佛教文献中替换身体的故事",
+        "level": 2,
+        "number": "3.3"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "相关条目",
+        "level": 1,
+        "number": "5"
+      }
+    ],
+    "revision": 94974350,
+    "fetchedAt": "2026-11-16",
+    "traditional": "忒修斯之船"
+  },
+  {
+    "id": "182360",
+    "title": "薛定谔猫",
+    "canonical": "薛定谔猫",
+    "aliases": [
+      "薛定谔猫",
+      "薛定谔的猫",
+      "薛定諤貓"
+    ],
+    "category": "思想与社会",
+    "sections": [
+      {
+        "text": "起源与动机",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "实验概述",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "各种不同的诠释",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "哥本哈根诠释",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "多世界理论和一致性历史",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "系综诠释",
+        "level": 2,
+        "number": "3.3"
+      },
+      {
+        "text": "关系诠释",
+        "level": 2,
+        "number": "3.4"
+      },
+      {
+        "text": "客观坍缩理论",
+        "level": 2,
+        "number": "3.5"
+      },
+      {
+        "text": "应用与实验",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "衍生文化",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "注释",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "参考资料",
+        "level": 1,
+        "number": "8"
+      }
+    ],
+    "revision": 94429268,
+    "fetchedAt": "2026-11-16",
+    "traditional": "薛定諤貓"
+  },
+  {
+    "id": "8416",
+    "title": "中文房间",
+    "canonical": "中文房间",
+    "aliases": [
+      "中文房间",
+      "中文房間"
+    ],
+    "category": "思想与社会",
+    "sections": [
+      {
+        "text": "背景",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "符号主义与强人工智能",
+        "level": 2,
+        "number": "1.1"
+      },
+      {
+        "text": "思想实验的先声",
+        "level": 2,
+        "number": "1.2"
+      },
+      {
+        "text": "论文的发表",
+        "level": 2,
+        "number": "1.3"
+      },
+      {
+        "text": "实验概要",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "瑟尔的论证",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "回应与论战",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "系统回应",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "机器人回应",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "脑模拟器回应",
+        "level": 2,
+        "number": "3.3"
+      },
+      {
+        "text": "联结主义回应",
+        "level": 2,
+        "number": "3.4"
+      },
+      {
+        "text": "其他心灵回应、组合回应与“许多大厦”回应",
+        "level": 2,
+        "number": "3.5"
+      },
+      {
+        "text": "直觉、速度与“理解”",
+        "level": 2,
+        "number": "3.6"
+      },
+      {
+        "text": "大语言模型时代",
+        "level": 2,
+        "number": "3.7"
+      },
+      {
+        "text": "后续争论",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "影响与评价",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "注释",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "延伸阅读",
+        "level": 1,
+        "number": "9"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "10"
+      }
+    ],
+    "revision": 94655820,
+    "fetchedAt": "2026-11-16",
+    "traditional": "中文房間"
+  },
+  {
+    "id": "341605",
+    "title": "有轨电车难题",
+    "canonical": "有轨电车难题",
+    "aliases": [
+      "有轨电车难题",
+      "电车难题",
+      "电车问题",
+      "有軌電車難題"
+    ],
+    "category": "思想与社会",
+    "sections": [
+      {
+        "text": "原始问题",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "修改版本",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "胖子",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "胖坏蛋",
+        "level": 2,
+        "number": "2.2"
+      },
+      {
+        "text": "二次变轨",
+        "level": 2,
+        "number": "2.3"
+      },
+      {
+        "text": "移植手术",
+        "level": 2,
+        "number": "2.4"
+      },
+      {
+        "text": "院子里的人",
+        "level": 2,
+        "number": "2.5"
+      },
+      {
+        "text": "哲学讨论",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "实证研究",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "现实生活中的事件",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "调查数据",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "对自动驾驶汽车的影响",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "流行文化",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "批评",
+        "level": 1,
+        "number": "9"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "10"
+      },
+      {
+        "text": "参考资料",
+        "level": 1,
+        "number": "11"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "12"
+      }
+    ],
+    "revision": 94878113,
+    "fetchedAt": "2026-11-16",
+    "traditional": "有軌電車難題"
+  },
+  {
+    "id": "23720",
+    "title": "囚徒困境",
+    "canonical": "囚徒困境",
+    "aliases": [
+      "囚徒困境"
+    ],
+    "category": "思想与社会",
+    "sections": [
+      {
+        "text": "经典的囚徒困境",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "解说",
+        "level": 2,
+        "number": "1.1"
+      },
+      {
+        "text": "固定局数的囚徒困境",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "一般形式",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "现实的例子",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "政治学例子：军备竞赛",
+        "level": 2,
+        "number": "4.1"
+      },
+      {
+        "text": "经济学例子：关税战",
+        "level": 2,
+        "number": "4.2"
+      },
+      {
+        "text": "商业例子：广告战",
+        "level": 2,
+        "number": "4.3"
+      },
+      {
+        "text": "自行车赛例子",
+        "level": 2,
+        "number": "4.4"
+      },
+      {
+        "text": "与囚徒困境相关的各事件",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "异想",
+        "level": 2,
+        "number": "5.1"
+      },
+      {
+        "text": "“认罪减刑”不可行",
+        "level": 2,
+        "number": "5.2"
+      },
+      {
+        "text": "公用品悲剧",
+        "level": 2,
+        "number": "5.3"
+      },
+      {
+        "text": "重复的囚徒困境（多人）",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "学习心理学和博弈论",
+        "level": 2,
+        "number": "6.1"
+      },
+      {
+        "text": "相关的博弈",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "密匣交易",
+        "level": 2,
+        "number": "7.1"
+      },
+      {
+        "text": "是敌是友?",
+        "level": 2,
+        "number": "7.2"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "注释",
+        "level": 1,
+        "number": "9"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "10"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "11"
+      }
+    ],
+    "revision": 88897985,
+    "fetchedAt": "2026-11-16",
+    "traditional": "囚徒困境"
+  },
+  {
+    "id": "88839",
+    "title": "蝴蝶效应",
+    "canonical": "蝴蝶效应",
+    "aliases": [
+      "蝴蝶效应",
+      "蝴蝶效應"
+    ],
+    "category": "思想与社会",
+    "sections": [
+      {
+        "text": "由来",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "含义",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "图示",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "连续依存和敏感依存",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "数学定义",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "李亚普诺夫指数",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "有界性",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "复发性",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "通俗但不准确的比喻",
+        "level": 1,
+        "number": "9"
+      },
+      {
+        "text": "劳伦兹对预报度极限的观点",
+        "level": 1,
+        "number": "10"
+      },
+      {
+        "text": "劳伦兹对混沌模式与混沌解的开创性贡献",
+        "level": 1,
+        "number": "11"
+      },
+      {
+        "text": "大语言模型的幻觉和蝴蝶效应",
+        "level": 1,
+        "number": "12"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "13"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "14"
+      },
+      {
+        "text": "延伸阅读",
+        "level": 1,
+        "number": "15"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "16"
+      }
+    ],
+    "revision": 93373491,
+    "fetchedAt": "2026-11-16",
+    "traditional": "蝴蝶效應"
+  },
+  {
+    "id": "519767",
+    "title": "费米悖论",
+    "canonical": "费米悖论",
+    "aliases": [
+      "费米悖论",
+      "費米悖論"
+    ],
+    "category": "思想与社会",
+    "sections": [
+      {
+        "text": "悖论基础",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "悖论的起源",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "德雷克公式",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "实验验证",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "无线电信号",
+        "level": 2,
+        "number": "4.1"
+      },
+      {
+        "text": "直接观测",
+        "level": 2,
+        "number": "4.2"
+      },
+      {
+        "text": "探测器、殖民地和其他人工产物",
+        "level": 3,
+        "number": "4.2.1"
+      },
+      {
+        "text": "星球规模的高等人造物",
+        "level": 3,
+        "number": "4.2.2"
+      },
+      {
+        "text": "理论解释",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "目前没有其他文明存在",
+        "level": 2,
+        "number": "5.1"
+      },
+      {
+        "text": "其他文明没有崛起",
+        "level": 3,
+        "number": "5.1.1"
+      },
+      {
+        "text": "智慧生物具有自我毁灭的性质",
+        "level": 3,
+        "number": "5.1.2"
+      },
+      {
+        "text": "外星文明存在，但是……",
+        "level": 2,
+        "number": "5.2"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "扩展阅读",
+        "level": 1,
+        "number": "8"
+      }
+    ],
+    "revision": 95092051,
+    "fetchedAt": "2026-11-16",
+    "traditional": "費米悖論"
+  },
+  {
+    "id": "207010",
+    "title": "奥卡姆剃刀",
+    "canonical": "奥卡姆剃刀",
+    "aliases": [
+      "奥卡姆剃刀",
+      "奧卡姆剃刀"
+    ],
+    "category": "思想与社会",
+    "sections": [
+      {
+        "text": "历史",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "奥卡姆之前",
+        "level": 2,
+        "number": "1.1"
+      },
+      {
+        "text": "奥卡姆",
+        "level": 2,
+        "number": "1.2"
+      },
+      {
+        "text": "奥卡姆之后的规范化表述",
+        "level": 2,
+        "number": "1.3"
+      },
+      {
+        "text": "论证",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "审美",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "经验论",
+        "level": 2,
+        "number": "2.2"
+      },
+      {
+        "text": "对奥卡姆剃刀的检验",
+        "level": 3,
+        "number": "2.2.1"
+      },
+      {
+        "text": "数学",
+        "level": 2,
+        "number": "2.3"
+      },
+      {
+        "text": "其他哲学家",
+        "level": 2,
+        "number": "2.4"
+      },
+      {
+        "text": "卡尔·波普尔",
+        "level": 3,
+        "number": "2.4.1"
+      },
+      {
+        "text": "艾利奥特·索伯",
+        "level": 3,
+        "number": "2.4.2"
+      },
+      {
+        "text": "理察·斯温伯恩",
+        "level": 3,
+        "number": "2.4.3"
+      },
+      {
+        "text": "路德维希·维特根斯坦",
+        "level": 3,
+        "number": "2.4.4"
+      },
+      {
+        "text": "应用",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "科学与科学方法",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "生物学",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "自然选择的作用水平",
+        "level": 3,
+        "number": "3.2.1"
+      },
+      {
+        "text": "系统分类学",
+        "level": 3,
+        "number": "3.2.2"
+      },
+      {
+        "text": "医学",
+        "level": 2,
+        "number": "3.3"
+      },
+      {
+        "text": "信仰",
+        "level": 2,
+        "number": "3.4"
+      },
+      {
+        "text": "概率论与统计",
+        "level": 2,
+        "number": "3.5"
+      },
+      {
+        "text": "客观剃刀理论",
+        "level": 3,
+        "number": "3.5.1"
+      },
+      {
+        "text": "有争议的部分",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "反剃刀",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "注释",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "9"
+      }
+    ],
+    "revision": 94985641,
+    "fetchedAt": "2026-11-16",
+    "traditional": "奧卡姆剃刀"
+  },
+  {
+    "id": "75034",
+    "title": "无限猴子定理",
+    "canonical": "無限猴子定理",
+    "aliases": [
+      "無限猴子定理",
+      "无限猴子定理"
+    ],
+    "category": "思想与社会",
+    "sections": [
+      {
+        "text": "起源",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "定义",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "普遍认同的观点",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "其他定义",
+        "level": 2,
+        "number": "2.2"
+      },
+      {
+        "text": "出处",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "证明",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "直接证明",
+        "level": 2,
+        "number": "4.1"
+      },
+      {
+        "text": "无限长的字符串",
+        "level": 2,
+        "number": "4.2"
+      },
+      {
+        "text": "概率",
+        "level": 2,
+        "number": "4.3"
+      },
+      {
+        "text": "现实",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "相关条目",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "注释",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "9"
+      }
+    ],
+    "revision": 92831833,
+    "fetchedAt": "2026-11-16",
+    "traditional": "無限猴子定理"
+  },
+  {
+    "id": "36214",
+    "title": "极光",
+    "canonical": "极光",
+    "aliases": [
+      "极光",
+      "極光"
+    ],
+    "category": "科学与自然",
+    "sections": [
+      {
+        "text": "历史回顾",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "古代观点",
+        "level": 2,
+        "number": "1.1"
+      },
+      {
+        "text": "近代以来科学概念与研究发展历史",
+        "level": 2,
+        "number": "1.2"
+      },
+      {
+        "text": "原理和机制",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "观测区域",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "形态和颜色",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "极光的分类",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "其他行星上",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "相关条目",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "解释性说明",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "参考资料",
+        "level": 1,
+        "number": "9"
+      },
+      {
+        "text": "进阶读物",
+        "level": 1,
+        "number": "10"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "11"
+      },
+      {
+        "text": "多媒体",
+        "level": 2,
+        "number": "11.1"
+      }
+    ],
+    "revision": 95194400,
+    "fetchedAt": "2026-11-16",
+    "traditional": "極光"
+  },
+  {
+    "id": "153710",
+    "title": "球状闪电",
+    "canonical": "球状闪电",
+    "aliases": [
+      "球状闪电",
+      "球狀閃電"
+    ],
+    "category": "科学与自然",
+    "sections": [
+      {
+        "text": "现象",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "原理",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "案例",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "延伸阅读",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "参考资料",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "注释",
+        "level": 2,
+        "number": "5.1"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "6"
+      }
+    ],
+    "revision": 95243474,
+    "fetchedAt": "2026-11-16",
+    "traditional": "球狀閃電"
+  },
+  {
+    "id": "9915",
+    "title": "光合作用",
+    "canonical": "光合作用",
+    "aliases": [
+      "光合作用"
+    ],
+    "category": "科学与自然",
+    "sections": [
+      {
+        "text": "研究历史",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "原理",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "光反应",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "非循环电子传递链",
+        "level": 3,
+        "number": "2.1.1"
+      },
+      {
+        "text": "循环电子传递链",
+        "level": 3,
+        "number": "2.1.2"
+      },
+      {
+        "text": "固碳作用（碳反应）",
+        "level": 2,
+        "number": "2.2"
+      },
+      {
+        "text": "卡尔文循环",
+        "level": 3,
+        "number": "2.2.1"
+      },
+      {
+        "text": "各类生物的光合作用",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "C3类植物",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "C4类植物",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "景天酸代谢（CAM）植物",
+        "level": 2,
+        "number": "3.3"
+      },
+      {
+        "text": "藻类和细菌",
+        "level": 2,
+        "number": "3.4"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "注释",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "6"
+      }
+    ],
+    "revision": 94770718,
+    "fetchedAt": "2026-11-16",
+    "traditional": "光合作用"
+  },
+  {
+    "id": "3336879",
+    "title": "CRISPR",
+    "canonical": "CRISPR",
+    "aliases": [
+      "CRISPR"
+    ],
+    "category": "科学与自然",
+    "sections": [
+      {
+        "text": "机制",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "发现历史",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "Cas9",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "Cpf1",
+        "level": 2,
+        "number": "2.2"
+      },
+      {
+        "text": "Cas9n",
+        "level": 2,
+        "number": "2.3"
+      },
+      {
+        "text": "应用",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "评价与获奖",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "参阅",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "延伸阅读",
+        "level": 1,
+        "number": "7"
+      }
+    ],
+    "revision": 94834954,
+    "fetchedAt": "2026-11-16",
+    "traditional": "CRISPR"
+  },
+  {
+    "id": "160429",
+    "title": "罗塞塔石碑",
+    "canonical": "羅塞塔石碑",
+    "aliases": [
+      "羅塞塔石碑",
+      "罗塞塔石碑"
+    ],
+    "category": "历史与文明",
+    "sections": [
+      {
+        "text": "特色",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "历史",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "衍生意义",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "参考资料",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "7"
+      }
+    ],
+    "revision": 93790710,
+    "fetchedAt": "2026-11-16",
+    "traditional": "羅塞塔石碑"
+  },
+  {
+    "id": "38047",
+    "title": "图坦卡蒙",
+    "canonical": "图坦卡蒙",
+    "aliases": [
+      "图坦卡蒙",
+      "圖坦卡蒙"
+    ],
+    "category": "历史与文明",
+    "sections": [
+      {
+        "text": "亲属",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "家庭",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "先祖",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "特色",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "健康和外貌",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "世系",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "死亡",
+        "level": 2,
+        "number": "3.3"
+      },
+      {
+        "text": "后续",
+        "level": 2,
+        "number": "3.4"
+      },
+      {
+        "text": "陵墓",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "陨石匕首",
+        "level": 2,
+        "number": "4.1"
+      },
+      {
+        "text": "娜芙娜芙鲁阿顿陪葬品的重用",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "其他",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "相关条目",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "注释",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "参考资料",
+        "level": 1,
+        "number": "9"
+      }
+    ],
+    "revision": 94592803,
+    "fetchedAt": "2026-11-16",
+    "traditional": "圖坦卡蒙"
+  },
+  {
+    "id": "169952",
+    "title": "特洛伊木马",
+    "canonical": "特洛伊木馬",
+    "aliases": [
+      "特洛伊木马",
+      "特洛伊木馬"
+    ],
+    "category": "历史与文明",
+    "sections": [
+      {
+        "text": "战争起因",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "战争经过",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "影响",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "重新发掘",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "7"
+      }
+    ],
+    "revision": 95170253,
+    "fetchedAt": "2026-11-16",
+    "traditional": "特洛伊木馬"
+  },
+  {
+    "id": "41290",
+    "title": "巴比伦空中花园",
+    "canonical": "巴比伦空中花园",
+    "aliases": [
+      "空中花园",
+      "巴比伦空中花园",
+      "巴比倫空中花園"
+    ],
+    "category": "历史与文明",
+    "sections": [
+      {
+        "text": "概论",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "现代建筑元素",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "外部参考",
+        "level": 1,
+        "number": "5"
+      }
+    ],
+    "revision": 95356159,
+    "fetchedAt": "2026-11-16",
+    "traditional": "巴比倫空中花園"
+  },
+  {
+    "id": "6713",
+    "title": "第一次工业革命",
+    "canonical": "第一次工业革命",
+    "aliases": [
+      "工业革命",
+      "第一次工业革命",
+      "第一次工業革命"
+    ],
+    "category": "历史与文明",
+    "sections": [
+      {
+        "text": "背景",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "起因",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "农业革命与人口增加",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "自然资源的因素",
+        "level": 2,
+        "number": "2.2"
+      },
+      {
+        "text": "贸易限制的解除",
+        "level": 2,
+        "number": "2.3"
+      },
+      {
+        "text": "殖民",
+        "level": 2,
+        "number": "2.4"
+      },
+      {
+        "text": "金融革命、 资本与新技术",
+        "level": 2,
+        "number": "2.5"
+      },
+      {
+        "text": "科学的发展",
+        "level": 2,
+        "number": "2.6"
+      },
+      {
+        "text": "重要的技术革新",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "生产制度的变革",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "行会师徒制的式微",
+        "level": 2,
+        "number": "4.1"
+      },
+      {
+        "text": "圈地运动",
+        "level": 2,
+        "number": "4.2"
+      },
+      {
+        "text": "技术革新",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "社会影响",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "参考资料及注释",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "其他参考文献",
+        "level": 2,
+        "number": "8.1"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "9"
+      }
+    ],
+    "revision": 95221545,
+    "fetchedAt": "2026-11-16",
+    "traditional": "第一次工業革命"
+  },
+  {
+    "id": "11366",
+    "title": "图灵测试",
+    "canonical": "图灵测试",
+    "aliases": [
+      "图灵测试",
+      "圖靈測試"
+    ],
+    "category": "思想与社会",
+    "sections": [
+      {
+        "text": "历史",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "测试内容",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "完成图灵测试涉及的技术课题",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "图灵测试的变种",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "反向图灵测试和验证码",
+        "level": 2,
+        "number": "4.1"
+      },
+      {
+        "text": "完全图灵测试",
+        "level": 2,
+        "number": "4.2"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "注解",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "8"
+      }
+    ],
+    "revision": 95166635,
+    "fetchedAt": "2026-11-16",
+    "traditional": "圖靈測試"
+  },
+  {
+    "id": "3014095",
+    "title": "幸存者偏差",
+    "canonical": "倖存者偏差",
+    "aliases": [
+      "倖存者偏差",
+      "幸存者偏差"
+    ],
+    "category": "思想与社会",
+    "sections": [
+      {
+        "text": "概要",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "案例",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "军事",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "相关条目",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "5"
+      }
+    ],
+    "revision": 91444044,
+    "fetchedAt": "2026-11-16",
+    "traditional": "倖存者偏差"
+  },
+  {
+    "id": "268050",
+    "title": "安慰剂",
+    "canonical": "安慰劑",
+    "aliases": [
+      "安慰剂",
+      "安慰剂效应",
+      "安慰劑"
+    ],
+    "category": "思想与社会",
+    "sections": [
+      {
+        "text": "安慰剂对照研究",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "安慰剂与痛楚",
+        "level": 2,
+        "number": "1.1"
+      },
+      {
+        "text": "安慰剂与抑郁",
+        "level": 2,
+        "number": "1.2"
+      },
+      {
+        "text": "内生性鸦片",
+        "level": 2,
+        "number": "1.3"
+      },
+      {
+        "text": "客观或是主观因素的争议",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "安慰剂作用原理",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "病人期望效应",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "制约反应",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "安慰剂在医学上的应用",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "安慰剂效应引发的混淆",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "相关条目",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "参考资料",
+        "level": 1,
+        "number": "8"
+      }
+    ],
+    "revision": 95163580,
+    "fetchedAt": "2026-11-16",
+    "traditional": "安慰劑"
+  },
+  {
+    "id": "522832",
+    "title": "认知失调",
+    "canonical": "認知失調",
+    "aliases": [
+      "认知失调",
+      "認知失調"
+    ],
+    "category": "思想与社会",
+    "sections": [
+      {
+        "text": "认知失调的实证研究",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "诱导性的服从的研究",
+        "level": 2,
+        "number": "1.1"
+      },
+      {
+        "text": "起源和第一个测试理论的实验",
+        "level": 3,
+        "number": "1.1.1"
+      },
+      {
+        "text": "此理论的应用",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "假设",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "治疗方案",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "参考资料",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "来源",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "8"
+      }
+    ],
+    "revision": 95322496,
+    "fetchedAt": "2026-11-16",
+    "traditional": "認知失調"
+  },
+  {
+    "id": "225091",
+    "title": "马斯洛需求层次理论",
+    "canonical": "马斯洛需求层次理论",
+    "aliases": [
+      "马斯洛需求层次理论",
+      "馬斯洛需求層次理論"
+    ],
+    "category": "思想与社会",
+    "sections": [
+      {
+        "text": "理论内容",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "生理需求",
+        "level": 2,
+        "number": "1.1"
+      },
+      {
+        "text": "安全需求",
+        "level": 2,
+        "number": "1.2"
+      },
+      {
+        "text": "爱和归属的需求",
+        "level": 2,
+        "number": "1.3"
+      },
+      {
+        "text": "尊严需求",
+        "level": 2,
+        "number": "1.4"
+      },
+      {
+        "text": "认知需求",
+        "level": 2,
+        "number": "1.5"
+      },
+      {
+        "text": "审美需求",
+        "level": 2,
+        "number": "1.6"
+      },
+      {
+        "text": "自我实现需求",
+        "level": 2,
+        "number": "1.7"
+      },
+      {
+        "text": "自我超越",
+        "level": 2,
+        "number": "1.8"
+      },
+      {
+        "text": "批评",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "方法",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "层级",
+        "level": 2,
+        "number": "2.2"
+      },
+      {
+        "text": "全部层级",
+        "level": 3,
+        "number": "2.2.1"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "4"
+      }
+    ],
+    "revision": 91825771,
+    "fetchedAt": "2026-11-16",
+    "traditional": "馬斯洛需求層次理論"
+  },
+  {
+    "id": "1208624",
+    "title": "乌托邦",
+    "canonical": "乌托邦",
+    "aliases": [
+      "乌托邦",
+      "烏托邦"
+    ],
+    "category": "思想与社会",
+    "sections": [
+      {
+        "text": "词源",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "形态",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "生态乌托邦",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "经济学",
+        "level": 2,
+        "number": "2.2"
+      },
+      {
+        "text": "政治与历史",
+        "level": 2,
+        "number": "2.3"
+      },
+      {
+        "text": "宗教乌托邦",
+        "level": 2,
+        "number": "2.4"
+      },
+      {
+        "text": "科学和技术方面",
+        "level": 2,
+        "number": "2.5"
+      },
+      {
+        "text": "神话中的乐园",
+        "level": 2,
+        "number": "2.6"
+      },
+      {
+        "text": "女性主义乌托邦",
+        "level": 2,
+        "number": "2.7"
+      },
+      {
+        "text": "游戏与动漫中的乌托邦",
+        "level": 2,
+        "number": "2.8"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "脚注",
+        "level": 2,
+        "number": "4.1"
+      },
+      {
+        "text": "书目",
+        "level": 2,
+        "number": "4.2"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "5"
+      }
+    ],
+    "revision": 93644033,
+    "fetchedAt": "2026-11-16",
+    "traditional": "烏托邦"
+  },
+  {
+    "id": "693781",
+    "title": "公地悲剧",
+    "canonical": "公地悲劇",
+    "aliases": [
+      "公地悲劇",
+      "公地悲剧"
+    ],
+    "category": "思想与社会",
+    "sections": [
+      {
+        "text": "来源",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "牧场理论",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "历史上的公地",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "参看",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "6"
+      }
+    ],
+    "revision": 93549158,
+    "fetchedAt": "2026-11-16",
+    "traditional": "公地悲劇"
+  },
+  {
+    "id": "121470",
+    "title": "斯德哥尔摩症候群",
+    "canonical": "斯德哥爾摩症候群",
+    "aliases": [
+      "斯德哥尔摩综合征",
+      "斯德哥爾摩症候群",
+      "斯德哥尔摩症候群"
+    ],
+    "category": "思想与社会",
+    "sections": [
+      {
+        "text": "词语释意",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "绑架中出现斯德哥尔摩症候群的人质特征",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "心理学的解释",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "引用",
+        "level": 2,
+        "number": "4.1"
+      },
+      {
+        "text": "来源",
+        "level": 2,
+        "number": "4.2"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "5"
+      }
+    ],
+    "revision": 94296658,
+    "fetchedAt": "2026-11-16",
+    "traditional": "斯德哥爾摩症候群"
+  },
+  {
+    "id": "310833",
+    "title": "旅行者金唱片",
+    "canonical": "旅行者金唱片",
+    "aliases": [
+      "旅行者金唱片",
+      "旅行者号金唱片"
+    ],
+    "category": "科学与自然",
+    "sections": [
+      {
+        "text": "表面",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "唱片表面",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "内容",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "旅程",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "其他资料",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "虚构出现",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "参考",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "参阅",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "9"
+      }
+    ],
+    "revision": 95551231,
+    "fetchedAt": "2026-11-16",
+    "traditional": "旅行者金唱片"
+  },
+  {
+    "id": "64496",
+    "title": "康威生命游戏",
+    "canonical": "康威生命游戏",
+    "aliases": [
+      "生命游戏",
+      "康威生命游戏",
+      "康威生命遊戲"
+    ],
+    "category": "科学与自然",
+    "sections": [
+      {
+        "text": "规则",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "概述",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "稳定状态",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "振荡状态",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "会移动的振荡状态",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "参考资料",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "8"
+      }
+    ],
+    "revision": 91643157,
+    "fetchedAt": "2026-11-16",
+    "traditional": "康威生命遊戲"
+  },
+  {
+    "id": "19400",
+    "title": "黑洞",
+    "canonical": "黑洞",
+    "aliases": [
+      "黑洞"
+    ],
+    "category": "科学与自然",
+    "sections": [
+      {
+        "text": "历史",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "牛顿力学下的黑洞",
+        "level": 2,
+        "number": "1.1"
+      },
+      {
+        "text": "广义相对论下的黑洞",
+        "level": 2,
+        "number": "1.2"
+      },
+      {
+        "text": "黄金时代",
+        "level": 3,
+        "number": "1.2.1"
+      },
+      {
+        "text": "词源",
+        "level": 2,
+        "number": "1.3"
+      },
+      {
+        "text": "属性和结构",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "物理性质",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "事件视界",
+        "level": 2,
+        "number": "2.2"
+      },
+      {
+        "text": "奇点",
+        "level": 2,
+        "number": "2.3"
+      },
+      {
+        "text": "光子球",
+        "level": 2,
+        "number": "2.4"
+      },
+      {
+        "text": "动圈",
+        "level": 2,
+        "number": "2.5"
+      },
+      {
+        "text": "最内侧的稳定圆形轨道（ISCO）",
+        "level": 2,
+        "number": "2.6"
+      },
+      {
+        "text": "黑洞热力学",
+        "level": 2,
+        "number": "2.7"
+      },
+      {
+        "text": "形成和演化",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "引力坍缩",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "原初黑洞和大爆炸",
+        "level": 3,
+        "number": "3.1.1"
+      },
+      {
+        "text": "高能碰撞",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "成长",
+        "level": 2,
+        "number": "3.3"
+      },
+      {
+        "text": "蒸发",
+        "level": 2,
+        "number": "3.4"
+      },
+      {
+        "text": "观测的证据",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "检测黑洞合并产生的引力波",
+        "level": 2,
+        "number": "4.1"
+      },
+      {
+        "text": "探测黑洞合并的引力波",
+        "level": 2,
+        "number": "4.2"
+      },
+      {
+        "text": "结构特性",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "物理特性",
+        "level": 2,
+        "number": "5.1"
+      },
+      {
+        "text": "质量和尺寸",
+        "level": 3,
+        "number": "5.1.1"
+      },
+      {
+        "text": "温度",
+        "level": 3,
+        "number": "5.1.2"
+      },
+      {
+        "text": "黑洞合并",
+        "level": 2,
+        "number": "5.2"
+      },
+      {
+        "text": "分类",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "天文观测",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "微引力透镜法",
+        "level": 2,
+        "number": "7.1"
+      },
+      {
+        "text": "恒星生成",
+        "level": 2,
+        "number": "7.2"
+      },
+      {
+        "text": "质量增加",
+        "level": 2,
+        "number": "7.3"
+      },
+      {
+        "text": "X射线双星",
+        "level": 2,
+        "number": "7.4"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "注解",
+        "level": 1,
+        "number": "9"
+      },
+      {
+        "text": "附注",
+        "level": 1,
+        "number": "10"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "11"
+      },
+      {
+        "text": "延伸阅读",
+        "level": 1,
+        "number": "12"
+      },
+      {
+        "text": "通俗读物",
+        "level": 2,
+        "number": "12.1"
+      },
+      {
+        "text": "教材与学术专著",
+        "level": 2,
+        "number": "12.2"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "13"
+      }
+    ],
+    "revision": 95186767,
+    "fetchedAt": "2026-11-16",
+    "traditional": "黑洞"
+  },
+  {
+    "id": "235928",
+    "title": "暗物质",
+    "canonical": "暗物质",
+    "aliases": [
+      "暗物质",
+      "暗物質"
+    ],
+    "category": "科学与自然",
+    "sections": [
+      {
+        "text": "暗物质存在的证据",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "星系自转曲线",
+        "level": 2,
+        "number": "1.1"
+      },
+      {
+        "text": "星系与星系团观测",
+        "level": 2,
+        "number": "1.2"
+      },
+      {
+        "text": "宇宙微波背景辐射",
+        "level": 2,
+        "number": "1.3"
+      },
+      {
+        "text": "暗物质的组成及理论模型",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "暗物质的探测",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "直接探测实验",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "间接探测实验",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "替代理论",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "重力理论修正",
+        "level": 2,
+        "number": "4.1"
+      },
+      {
+        "text": "量子重力",
+        "level": 2,
+        "number": "4.2"
+      },
+      {
+        "text": "真空态",
+        "level": 2,
+        "number": "4.3"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "参考资料",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "7"
+      }
+    ],
+    "revision": 94657530,
+    "fetchedAt": "2026-11-16",
+    "traditional": "暗物質"
+  },
+  {
+    "id": "157596",
+    "title": "量子纠缠",
+    "canonical": "量子糾纏",
+    "aliases": [
+      "量子纠缠",
+      "量子糾纏"
+    ],
+    "category": "科学与自然",
+    "sections": [
+      {
+        "text": "历史",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "基本概念",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "数学表述",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "严格定义",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "纯态",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "混合态",
+        "level": 2,
+        "number": "3.3"
+      },
+      {
+        "text": "约化密度算符",
+        "level": 2,
+        "number": "3.4"
+      },
+      {
+        "text": "冯纽曼熵",
+        "level": 2,
+        "number": "3.5"
+      },
+      {
+        "text": "伦伊熵",
+        "level": 2,
+        "number": "3.6"
+      },
+      {
+        "text": "纠缠能谱",
+        "level": 2,
+        "number": "3.7"
+      },
+      {
+        "text": "量子纠缠度量",
+        "level": 2,
+        "number": "3.8"
+      },
+      {
+        "text": "量子纠缠与不可分性",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "应用",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "不同种类的纠缠态",
+        "level": 2,
+        "number": "5.1"
+      },
+      {
+        "text": "纠缠系统的制备",
+        "level": 2,
+        "number": "5.2"
+      },
+      {
+        "text": "自然纠缠系统",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "时间奥秘",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "虫洞",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "案例",
+        "level": 1,
+        "number": "9"
+      },
+      {
+        "text": "注释",
+        "level": 1,
+        "number": "10"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "11"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "12"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "13"
+      }
+    ],
+    "revision": 95088170,
+    "fetchedAt": "2026-11-16",
+    "traditional": "量子糾纏"
+  },
+  {
+    "id": "26040",
+    "title": "熵",
+    "canonical": "熵",
+    "aliases": [
+      "熵"
+    ],
+    "category": "科学与自然",
+    "sections": [
+      {
+        "text": "熵的热力学定义",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "熵的增减与热机",
+        "level": 2,
+        "number": "1.1"
+      },
+      {
+        "text": "熵作为状态函数",
+        "level": 2,
+        "number": "1.2"
+      },
+      {
+        "text": "熵的统计学定义，玻尔兹曼原理",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "熵作为混乱程度的度量",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "微观计算",
+        "level": 2,
+        "number": "2.2"
+      },
+      {
+        "text": "熵的历史",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "熵的图绘",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "熵的测量",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "非热力学的熵",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "时间之箭",
+        "level": 2,
+        "number": "6.1"
+      },
+      {
+        "text": "注释",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "引用",
+        "level": 2,
+        "number": "8.1"
+      },
+      {
+        "text": "来源",
+        "level": 2,
+        "number": "8.2"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "9"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "10"
+      }
+    ],
+    "revision": 94851867,
+    "fetchedAt": "2026-11-16",
+    "traditional": "熵"
+  },
+  {
+    "id": "20556",
+    "title": "超导现象",
+    "canonical": "超导现象",
+    "aliases": [
+      "超导现象",
+      "超導現象"
+    ],
+    "category": "科学与自然",
+    "sections": [
+      {
+        "text": "超导体的基本特性",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "超导体的分类",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "发现",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "完全抗磁性",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "原理",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "伦敦方程",
+        "level": 2,
+        "number": "5.1"
+      },
+      {
+        "text": "BCS理论",
+        "level": 2,
+        "number": "5.2"
+      },
+      {
+        "text": "高温超导体",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "应用",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "超导磁感应加热",
+        "level": 2,
+        "number": "7.1"
+      },
+      {
+        "text": "超导电缆",
+        "level": 2,
+        "number": "7.2"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "参考资料",
+        "level": 1,
+        "number": "9"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "10"
+      }
+    ],
+    "revision": 93122638,
+    "fetchedAt": "2026-11-16",
+    "traditional": "超導現象"
+  },
+  {
+    "id": "150144",
+    "title": "莫比乌斯带",
+    "canonical": "莫比乌斯带",
+    "aliases": [
+      "莫比乌斯带",
+      "莫比烏斯帶"
+    ],
+    "category": "科学与自然",
+    "sections": [
+      {
+        "text": "几何学与拓扑学结构",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "有关的物体",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "艺术和科技",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "趣闻",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "参考资料",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "7"
+      }
+    ],
+    "revision": 93426119,
+    "fetchedAt": "2026-11-16",
+    "traditional": "莫比烏斯帶"
+  },
+  {
+    "id": "150170",
+    "title": "克莱因瓶",
+    "canonical": "克莱因瓶",
+    "aliases": [
+      "克莱因瓶",
+      "克萊因瓶"
+    ],
+    "category": "科学与自然",
+    "sections": [
+      {
+        "text": "性质",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "参数方程模型",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "参考资料",
+        "level": 1,
+        "number": "4"
+      }
+    ],
+    "revision": 90084209,
+    "fetchedAt": "2026-11-16",
+    "traditional": "克萊因瓶"
+  },
+  {
+    "id": "57535",
+    "title": "分形",
+    "canonical": "分形",
+    "aliases": [
+      "分形"
+    ],
+    "category": "科学与自然",
+    "sections": [
+      {
+        "text": "简介",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "历史",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "特征",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "示例",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "造法",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "分类",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "应用",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "软件",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "注释",
+        "level": 1,
+        "number": "9"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "10"
+      },
+      {
+        "text": "引用",
+        "level": 2,
+        "number": "10.1"
+      },
+      {
+        "text": "来源",
+        "level": 2,
+        "number": "10.2"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "11"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "12"
+      }
+    ],
+    "revision": 94969644,
+    "fetchedAt": "2026-11-16",
+    "traditional": "分形"
+  },
+  {
+    "id": "78447",
+    "title": "混沌理论",
+    "canonical": "混沌理论",
+    "aliases": [
+      "混沌理论",
+      "混沌理論"
+    ],
+    "category": "科学与自然",
+    "sections": [
+      {
+        "text": "定义",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "背景",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "洛伦兹对混沌建模的开创性贡献",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "混沌动力学",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "对初始条件的敏感性",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "非周期性",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "拓扑混合",
+        "level": 2,
+        "number": "3.3"
+      },
+      {
+        "text": "拓扑传递",
+        "level": 2,
+        "number": "3.4"
+      },
+      {
+        "text": "稠密周期轨道",
+        "level": 2,
+        "number": "3.5"
+      },
+      {
+        "text": "奇异吸引子",
+        "level": 2,
+        "number": "3.6"
+      },
+      {
+        "text": "共存吸引子",
+        "level": 2,
+        "number": "3.7"
+      },
+      {
+        "text": "混沌系统的最小复杂度",
+        "level": 2,
+        "number": "3.8"
+      },
+      {
+        "text": "无限维映射",
+        "level": 2,
+        "number": "3.9"
+      },
+      {
+        "text": "急动系统",
+        "level": 2,
+        "number": "3.10"
+      },
+      {
+        "text": "自发秩序",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "应用",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "密码学",
+        "level": 2,
+        "number": "5.1"
+      },
+      {
+        "text": "机器人学",
+        "level": 2,
+        "number": "5.2"
+      },
+      {
+        "text": "生物学",
+        "level": 2,
+        "number": "5.3"
+      },
+      {
+        "text": "经济学",
+        "level": 2,
+        "number": "5.4"
+      },
+      {
+        "text": "管理运筹学",
+        "level": 2,
+        "number": "5.5"
+      },
+      {
+        "text": "混沌控制",
+        "level": 2,
+        "number": "5.6"
+      },
+      {
+        "text": "其他领域",
+        "level": 2,
+        "number": "5.7"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "引用",
+        "level": 2,
+        "number": "7.1"
+      },
+      {
+        "text": "来源",
+        "level": 2,
+        "number": "7.2"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "8"
+      }
+    ],
+    "revision": 95238827,
+    "fetchedAt": "2026-11-16",
+    "traditional": "混沌理論"
+  },
+  {
+    "id": "5455890",
+    "title": "圆周率",
+    "canonical": "圓周率",
+    "aliases": [
+      "圓周率",
+      "圆周率"
+    ],
+    "category": "科学与自然",
+    "sections": [
+      {
+        "text": "基本概念",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "名称",
+        "level": 2,
+        "number": "1.1"
+      },
+      {
+        "text": "定义",
+        "level": 2,
+        "number": "1.2"
+      },
+      {
+        "text": "无理及正规性",
+        "level": 2,
+        "number": "1.3"
+      },
+      {
+        "text": "超越性",
+        "level": 2,
+        "number": "1.4"
+      },
+      {
+        "text": "连分式",
+        "level": 2,
+        "number": "1.5"
+      },
+      {
+        "text": "近似值",
+        "level": 2,
+        "number": "1.6"
+      },
+      {
+        "text": "复数与欧拉恒等式",
+        "level": 2,
+        "number": "1.7"
+      },
+      {
+        "text": "谱特征",
+        "level": 2,
+        "number": "1.8"
+      },
+      {
+        "text": "高斯积分",
+        "level": 2,
+        "number": "1.9"
+      },
+      {
+        "text": "历史",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "远古时期",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "割圆时代",
+        "level": 2,
+        "number": "2.2"
+      },
+      {
+        "text": "无穷级数",
+        "level": 2,
+        "number": "2.3"
+      },
+      {
+        "text": "收敛速度",
+        "level": 3,
+        "number": "2.3.1"
+      },
+      {
+        "text": "无理与超越性",
+        "level": 2,
+        "number": "2.4"
+      },
+      {
+        "text": "引入π符号",
+        "level": 2,
+        "number": "2.5"
+      },
+      {
+        "text": "现代数值近似",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "计算机时代与迭代算法",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "计算π的意义",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "快速收敛级数",
+        "level": 2,
+        "number": "3.3"
+      },
+      {
+        "text": "统计模拟法",
+        "level": 2,
+        "number": "3.4"
+      },
+      {
+        "text": "阀门算法",
+        "level": 2,
+        "number": "3.5"
+      },
+      {
+        "text": "利用伽玛函数计算",
+        "level": 2,
+        "number": "3.6"
+      },
+      {
+        "text": "用途",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "几何学与三角学",
+        "level": 2,
+        "number": "4.1"
+      },
+      {
+        "text": "拓扑学",
+        "level": 2,
+        "number": "4.2"
+      },
+      {
+        "text": "向量分析",
+        "level": 2,
+        "number": "4.3"
+      },
+      {
+        "text": "柯西积分公式",
+        "level": 2,
+        "number": "4.4"
+      },
+      {
+        "text": "Γ函数与斯特灵公式",
+        "level": 2,
+        "number": "4.5"
+      },
+      {
+        "text": "数论与黎曼ζ函数",
+        "level": 2,
+        "number": "4.6"
+      },
+      {
+        "text": "傅里叶级数",
+        "level": 2,
+        "number": "4.7"
+      },
+      {
+        "text": "模形式与𝜃函数",
+        "level": 2,
+        "number": "4.8"
+      },
+      {
+        "text": "柯西分布与位势论",
+        "level": 2,
+        "number": "4.9"
+      },
+      {
+        "text": "复变动态系统",
+        "level": 2,
+        "number": "4.10"
+      },
+      {
+        "text": "数学之外的π",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "描述物理现象",
+        "level": 2,
+        "number": "5.1"
+      },
+      {
+        "text": "π的记忆技巧",
+        "level": 2,
+        "number": "5.2"
+      },
+      {
+        "text": "大众文化",
+        "level": 2,
+        "number": "5.3"
+      },
+      {
+        "text": "注释",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "参考资料",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "书籍",
+        "level": 2,
+        "number": "7.1"
+      },
+      {
+        "text": "引用",
+        "level": 2,
+        "number": "7.2"
+      },
+      {
+        "text": "延伸阅读",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "9"
+      }
+    ],
+    "revision": 94659215,
+    "fetchedAt": "2026-11-16",
+    "traditional": "圓周率"
+  },
+  {
+    "id": "7749",
+    "title": "黄金比例",
+    "canonical": "黄金分割率",
+    "aliases": [
+      "黄金分割率",
+      "黄金分割",
+      "黄金比例",
+      "黃金比例"
+    ],
+    "category": "科学与自然",
+    "sections": [
+      {
+        "text": "历史",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "基本计算",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "替代或其他形式",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "与其他数学事项的关系",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "黄金比数高精度计算程式码",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "C++",
+        "level": 2,
+        "number": "4.1"
+      },
+      {
+        "text": "例子",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "贵金属分割",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "引用",
+        "level": 2,
+        "number": "7.1"
+      },
+      {
+        "text": "来源",
+        "level": 2,
+        "number": "7.2"
+      },
+      {
+        "text": "注释",
+        "level": 2,
+        "number": "7.3"
+      },
+      {
+        "text": "延伸读物",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "9"
+      }
+    ],
+    "revision": 93707251,
+    "fetchedAt": "2026-11-16",
+    "traditional": "黃金比例"
+  },
+  {
+    "id": "66886",
+    "title": "斐波那契数",
+    "canonical": "斐波那契数",
+    "aliases": [
+      "斐波那契数",
+      "斐波那契數"
+    ],
+    "category": "科学与自然",
+    "sections": [
+      {
+        "text": "起源",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "表达式",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "初等代数解法",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "首先构建等比数列",
+        "level": 3,
+        "number": "2.1.1"
+      },
+      {
+        "text": "求出数列{an+αan-1}",
+        "level": 3,
+        "number": "2.1.2"
+      },
+      {
+        "text": "求数列{bn}进而得到{an}",
+        "level": 3,
+        "number": "2.1.3"
+      },
+      {
+        "text": "用数学归纳法证明表达式",
+        "level": 2,
+        "number": "2.2"
+      },
+      {
+        "text": "线性代数解法",
+        "level": 2,
+        "number": "2.3"
+      },
+      {
+        "text": "构建一个矩阵方程",
+        "level": 3,
+        "number": "2.3.1"
+      },
+      {
+        "text": "求矩阵的特征值：λ",
+        "level": 3,
+        "number": "2.3.2"
+      },
+      {
+        "text": "特征向量",
+        "level": 3,
+        "number": "2.3.3"
+      },
+      {
+        "text": "分解首向量",
+        "level": 3,
+        "number": "2.3.4"
+      },
+      {
+        "text": "用数学归纳法证明",
+        "level": 3,
+        "number": "2.3.5"
+      },
+      {
+        "text": "化简矩阵方程",
+        "level": 3,
+        "number": "2.3.6"
+      },
+      {
+        "text": "求A的表达式",
+        "level": 3,
+        "number": "2.3.7"
+      },
+      {
+        "text": "数论解法",
+        "level": 2,
+        "number": "2.4"
+      },
+      {
+        "text": "组合数解法",
+        "level": 2,
+        "number": "2.5"
+      },
+      {
+        "text": "黄金比例恒等式解法",
+        "level": 2,
+        "number": "2.6"
+      },
+      {
+        "text": "近似值",
+        "level": 2,
+        "number": "2.7"
+      },
+      {
+        "text": "用计算机求解",
+        "level": 2,
+        "number": "2.8"
+      },
+      {
+        "text": "和黄金分割的关系",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "和自然的关系",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "恒等式",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "数论性质",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "公因数和整除关系",
+        "level": 2,
+        "number": "6.1"
+      },
+      {
+        "text": "斐波那契质数",
+        "level": 2,
+        "number": "6.2"
+      },
+      {
+        "text": "与其他数列的交集",
+        "level": 2,
+        "number": "6.3"
+      },
+      {
+        "text": "模n的周期性",
+        "level": 2,
+        "number": "6.4"
+      },
+      {
+        "text": "推广",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "和卢卡斯数列的关系",
+        "level": 2,
+        "number": "7.1"
+      },
+      {
+        "text": "反费波那西数列",
+        "level": 2,
+        "number": "7.2"
+      },
+      {
+        "text": "证明关系式",
+        "level": 3,
+        "number": "7.2.1"
+      },
+      {
+        "text": "巴都万数列",
+        "level": 2,
+        "number": "7.3"
+      },
+      {
+        "text": "佩尔数列",
+        "level": 2,
+        "number": "7.4"
+      },
+      {
+        "text": "应用",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "电脑科学",
+        "level": 2,
+        "number": "8.1"
+      },
+      {
+        "text": "延伸阅读",
+        "level": 1,
+        "number": "9"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "10"
+      },
+      {
+        "text": "注释",
+        "level": 1,
+        "number": "11"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "12"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "13"
+      }
+    ],
+    "revision": 95451650,
+    "fetchedAt": "2026-11-16",
+    "traditional": "斐波那契數"
+  },
+  {
+    "id": "117818",
+    "title": "板块构造论",
+    "canonical": "板块构造论",
+    "aliases": [
+      "板块构造论",
+      "板塊構造論"
+    ],
+    "category": "科学与自然",
+    "sections": [
+      {
+        "text": "关键原理",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "板块边界的类型",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "板块运动的驱动力",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "与地函动力学相关的驱动力",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "热柱构造",
+        "level": 3,
+        "number": "3.1.1"
+      },
+      {
+        "text": "涌流构造",
+        "level": 3,
+        "number": "3.1.2"
+      },
+      {
+        "text": "与重力相关的驱动力",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "与地球自转相关的驱动力",
+        "level": 2,
+        "number": "3.3"
+      },
+      {
+        "text": "潮汐对板块构造的影响",
+        "level": 3,
+        "number": "3.3.1"
+      },
+      {
+        "text": "各驱动力机制的相对意义",
+        "level": 2,
+        "number": "3.4"
+      },
+      {
+        "text": "理论史",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "概括",
+        "level": 2,
+        "number": "4.1"
+      },
+      {
+        "text": "大陆漂移学说",
+        "level": 2,
+        "number": "4.2"
+      },
+      {
+        "text": "浮动大陆、古地磁学和地震活动带",
+        "level": 2,
+        "number": "4.3"
+      },
+      {
+        "text": "中洋脊扩张和对流",
+        "level": 2,
+        "number": "4.4"
+      },
+      {
+        "text": "磁条",
+        "level": 2,
+        "number": "4.5"
+      },
+      {
+        "text": "理论的定义和完善",
+        "level": 2,
+        "number": "4.6"
+      },
+      {
+        "text": "板块构造论革命",
+        "level": 2,
+        "number": "4.7"
+      },
+      {
+        "text": "对生物地理学的影响",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "板块重建",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "定义板块边界",
+        "level": 2,
+        "number": "6.1"
+      },
+      {
+        "text": "过去的板块运动",
+        "level": 2,
+        "number": "6.2"
+      },
+      {
+        "text": "大陆的形成和分裂",
+        "level": 2,
+        "number": "6.3"
+      },
+      {
+        "text": "当前板块",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "其他天体（行星、卫星）",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "金星",
+        "level": 2,
+        "number": "8.1"
+      },
+      {
+        "text": "火星",
+        "level": 2,
+        "number": "8.2"
+      },
+      {
+        "text": "冰卫星",
+        "level": 2,
+        "number": "8.3"
+      },
+      {
+        "text": "系外行星",
+        "level": 2,
+        "number": "8.4"
+      },
+      {
+        "text": "古代大陆分布",
+        "level": 1,
+        "number": "9"
+      },
+      {
+        "text": "前寒武纪",
+        "level": 2,
+        "number": "9.1"
+      },
+      {
+        "text": "寒武纪",
+        "level": 2,
+        "number": "9.2"
+      },
+      {
+        "text": "奥陶纪",
+        "level": 2,
+        "number": "9.3"
+      },
+      {
+        "text": "志留纪",
+        "level": 2,
+        "number": "9.4"
+      },
+      {
+        "text": "泥盆纪",
+        "level": 2,
+        "number": "9.5"
+      },
+      {
+        "text": "石炭纪早期",
+        "level": 2,
+        "number": "9.6"
+      },
+      {
+        "text": "石炭纪晚期",
+        "level": 2,
+        "number": "9.7"
+      },
+      {
+        "text": "二叠纪",
+        "level": 2,
+        "number": "9.8"
+      },
+      {
+        "text": "三叠纪",
+        "level": 2,
+        "number": "9.9"
+      },
+      {
+        "text": "侏罗纪",
+        "level": 2,
+        "number": "9.10"
+      },
+      {
+        "text": "侏罗纪晚期",
+        "level": 2,
+        "number": "9.11"
+      },
+      {
+        "text": "白垩纪",
+        "level": 2,
+        "number": "9.12"
+      },
+      {
+        "text": "白垩纪-古近纪灭绝事件",
+        "level": 2,
+        "number": "9.13"
+      },
+      {
+        "text": "始新世",
+        "level": 2,
+        "number": "9.14"
+      },
+      {
+        "text": "中新世",
+        "level": 2,
+        "number": "9.15"
+      },
+      {
+        "text": "冰川时期晚期",
+        "level": 2,
+        "number": "9.16"
+      },
+      {
+        "text": "现代世界",
+        "level": 2,
+        "number": "9.17"
+      },
+      {
+        "text": "未来世界",
+        "level": 1,
+        "number": "10"
+      },
+      {
+        "text": "5千万年后",
+        "level": 2,
+        "number": "10.1"
+      },
+      {
+        "text": "1.5亿年后",
+        "level": 2,
+        "number": "10.2"
+      },
+      {
+        "text": "2.5亿年后",
+        "level": 2,
+        "number": "10.3"
+      },
+      {
+        "text": "地球板块列表",
+        "level": 1,
+        "number": "11"
+      },
+      {
+        "text": "板块",
+        "level": 2,
+        "number": "11.1"
+      },
+      {
+        "text": "小板块",
+        "level": 2,
+        "number": "11.2"
+      },
+      {
+        "text": "隐没板块",
+        "level": 2,
+        "number": "11.3"
+      },
+      {
+        "text": "古板块",
+        "level": 2,
+        "number": "11.4"
+      },
+      {
+        "text": "参考资料",
+        "level": 1,
+        "number": "12"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "13"
+      }
+    ],
+    "revision": 95484866,
+    "fetchedAt": "2026-11-16",
+    "traditional": "板塊構造論"
+  },
+  {
+    "id": "6248",
+    "title": "大陆漂移学说",
+    "canonical": "大陆漂移学说",
+    "aliases": [
+      "大陆漂移学说",
+      "大陆漂移说",
+      "大陸漂移學說"
+    ],
+    "category": "科学与自然",
+    "sections": [
+      {
+        "text": "由来",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "争论纷纷",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "理论",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "证据",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "发展",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "参考资料",
+        "level": 1,
+        "number": "7"
+      }
+    ],
+    "revision": 93067804,
+    "fetchedAt": "2026-11-16",
+    "traditional": "大陸漂移學說"
+  },
+  {
+    "id": "18982",
+    "title": "寒武纪大爆发",
+    "canonical": "寒武纪大爆发",
+    "aliases": [
+      "寒武纪大爆发",
+      "寒武紀大爆發"
+    ],
+    "category": "科学与自然",
+    "sections": [
+      {
+        "text": "寒武纪化石",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "痕迹化石",
+        "level": 2,
+        "number": "1.1"
+      },
+      {
+        "text": "伯吉斯页岩",
+        "level": 2,
+        "number": "1.2"
+      },
+      {
+        "text": "寒武纪演化出的生物",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "前寒武纪生命",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "叠层石",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "疑源类",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "陡山沱组化石",
+        "level": 2,
+        "number": "3.3"
+      },
+      {
+        "text": "埃迪卡拉生物",
+        "level": 2,
+        "number": "3.4"
+      },
+      {
+        "text": "白云石",
+        "level": 2,
+        "number": "3.5"
+      },
+      {
+        "text": "埃迪卡拉纪晚期-寒武纪早期骨骼化",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "寒武纪生命",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "小壳动物群",
+        "level": 2,
+        "number": "5.1"
+      },
+      {
+        "text": "三叶虫",
+        "level": 2,
+        "number": "5.2"
+      },
+      {
+        "text": "异虫纲",
+        "level": 2,
+        "number": "5.3"
+      },
+      {
+        "text": "恐虾纲",
+        "level": 2,
+        "number": "5.4"
+      },
+      {
+        "text": "古虫动物",
+        "level": 2,
+        "number": "5.5"
+      },
+      {
+        "text": "早寒武纪甲壳类动物",
+        "level": 2,
+        "number": "5.6"
+      },
+      {
+        "text": "阶段",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "有效性",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "作为幸存者偏差的寒武纪大爆发",
+        "level": 2,
+        "number": "7.1"
+      },
+      {
+        "text": "可能的原因",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "环境变化",
+        "level": 2,
+        "number": "8.1"
+      },
+      {
+        "text": "氧气含量增加",
+        "level": 3,
+        "number": "8.1.1"
+      },
+      {
+        "text": "臭氧形成",
+        "level": 3,
+        "number": "8.1.2"
+      },
+      {
+        "text": "雪球地球",
+        "level": 3,
+        "number": "8.1.3"
+      },
+      {
+        "text": "寒武纪海水钙浓度增加",
+        "level": 3,
+        "number": "8.1.4"
+      },
+      {
+        "text": "发育学解释",
+        "level": 2,
+        "number": "8.2"
+      },
+      {
+        "text": "生态解释",
+        "level": 2,
+        "number": "8.3"
+      },
+      {
+        "text": "埃迪卡拉纪末大灭绝",
+        "level": 3,
+        "number": "8.3.1"
+      },
+      {
+        "text": "缺氧",
+        "level": 3,
+        "number": "8.3.2"
+      },
+      {
+        "text": "眼睛的进化",
+        "level": 3,
+        "number": "8.3.3"
+      },
+      {
+        "text": "掠食者和猎物之间的竞争",
+        "level": 3,
+        "number": "8.3.4"
+      },
+      {
+        "text": "浮游动物的大小和多样性增加",
+        "level": 3,
+        "number": "8.3.5"
+      },
+      {
+        "text": "生态系统工程",
+        "level": 2,
+        "number": "8.4"
+      },
+      {
+        "text": "复杂度阈值",
+        "level": 2,
+        "number": "8.5"
+      },
+      {
+        "text": "寒武纪早期生物多样性的独特性",
+        "level": 1,
+        "number": "9"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "10"
+      },
+      {
+        "text": "参考资料",
+        "level": 1,
+        "number": "11"
+      },
+      {
+        "text": "参考书目",
+        "level": 1,
+        "number": "12"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "13"
+      }
+    ],
+    "revision": 95237028,
+    "fetchedAt": "2026-11-16",
+    "traditional": "寒武紀大爆發"
+  },
+  {
+    "id": "173284",
+    "title": "白垩纪—古近纪灭绝事件",
+    "canonical": "白垩纪—古近纪灭绝事件",
+    "aliases": [
+      "白垩纪—古近纪灭绝事件",
+      "白堊紀—古近紀滅絕事件"
+    ],
+    "category": "科学与自然",
+    "sections": [
+      {
+        "text": "判定原则",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "原因",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "灭绝模式",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "微生物群",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "海生无脊椎动物",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "鱼类",
+        "level": 2,
+        "number": "3.3"
+      },
+      {
+        "text": "陆地无脊椎动物",
+        "level": 2,
+        "number": "3.4"
+      },
+      {
+        "text": "陆地植物",
+        "level": 2,
+        "number": "3.5"
+      },
+      {
+        "text": "两栖动物",
+        "level": 2,
+        "number": "3.6"
+      },
+      {
+        "text": "非主龙类的爬行动物",
+        "level": 2,
+        "number": "3.7"
+      },
+      {
+        "text": "主龙类",
+        "level": 2,
+        "number": "3.8"
+      },
+      {
+        "text": "鳄形超目",
+        "level": 3,
+        "number": "3.8.1"
+      },
+      {
+        "text": "翼龙目",
+        "level": 3,
+        "number": "3.8.2"
+      },
+      {
+        "text": "恐龙",
+        "level": 3,
+        "number": "3.8.3"
+      },
+      {
+        "text": "鸟类",
+        "level": 2,
+        "number": "3.9"
+      },
+      {
+        "text": "哺乳动物",
+        "level": 2,
+        "number": "3.10"
+      },
+      {
+        "text": "证据",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "北美洲化石",
+        "level": 2,
+        "number": "4.1"
+      },
+      {
+        "text": "海洋化石",
+        "level": 2,
+        "number": "4.2"
+      },
+      {
+        "text": "经历时间",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "灭绝原因",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "撞击事件",
+        "level": 2,
+        "number": "6.1"
+      },
+      {
+        "text": "德干暗色岩",
+        "level": 2,
+        "number": "6.2"
+      },
+      {
+        "text": "多重撞击事件",
+        "level": 2,
+        "number": "6.3"
+      },
+      {
+        "text": "马斯垂克阶的海退事件",
+        "level": 2,
+        "number": "6.4"
+      },
+      {
+        "text": "注释",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "参考资料",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "9"
+      }
+    ],
+    "revision": 95511044,
+    "fetchedAt": "2026-11-16",
+    "traditional": "白堊紀—古近紀滅絕事件"
+  },
+  {
+    "id": "7597",
+    "title": "恐龙",
+    "canonical": "恐龙",
+    "aliases": [
+      "恐龙",
+      "恐龍"
+    ],
+    "category": "科学与自然",
+    "sections": [
+      {
+        "text": "词源",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "定义",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "其他爬行动物与恐龙的关系",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "鉴定特征",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "演化与分类",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "恐龙的起源",
+        "level": 2,
+        "number": "4.1"
+      },
+      {
+        "text": "科学分类",
+        "level": 2,
+        "number": "4.2"
+      },
+      {
+        "text": "演化与地理分布",
+        "level": 2,
+        "number": "4.3"
+      },
+      {
+        "text": "物种多样性",
+        "level": 2,
+        "number": "4.4"
+      },
+      {
+        "text": "古生物学",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "体型",
+        "level": 2,
+        "number": "5.1"
+      },
+      {
+        "text": "最大和最小的恐龙",
+        "level": 3,
+        "number": "5.1.1"
+      },
+      {
+        "text": "行为",
+        "level": 2,
+        "number": "5.2"
+      },
+      {
+        "text": "生理特征",
+        "level": 2,
+        "number": "5.3"
+      },
+      {
+        "text": "软组织与DNA",
+        "level": 2,
+        "number": "5.4"
+      },
+      {
+        "text": "鸟类的起源",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "有羽毛恐龙",
+        "level": 2,
+        "number": "6.1"
+      },
+      {
+        "text": "骨骸",
+        "level": 2,
+        "number": "6.2"
+      },
+      {
+        "text": "软组织",
+        "level": 2,
+        "number": "6.3"
+      },
+      {
+        "text": "繁殖",
+        "level": 2,
+        "number": "6.4"
+      },
+      {
+        "text": "行为证据",
+        "level": 2,
+        "number": "6.5"
+      },
+      {
+        "text": "灭绝理论",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "撞击事件",
+        "level": 2,
+        "number": "7.1"
+      },
+      {
+        "text": "火山爆发",
+        "level": 2,
+        "number": "7.2"
+      },
+      {
+        "text": "古新世幸存者",
+        "level": 2,
+        "number": "7.3"
+      },
+      {
+        "text": "发掘历史",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "恐龙文艺复兴",
+        "level": 2,
+        "number": "8.1"
+      },
+      {
+        "text": "大众文化",
+        "level": 1,
+        "number": "9"
+      },
+      {
+        "text": "恐龙题材作品",
+        "level": 2,
+        "number": "9.1"
+      },
+      {
+        "text": "宗教观点",
+        "level": 2,
+        "number": "9.2"
+      },
+      {
+        "text": "注释",
+        "level": 1,
+        "number": "10"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "11"
+      },
+      {
+        "text": "延伸阅读",
+        "level": 1,
+        "number": "12"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "13"
+      },
+      {
+        "text": "图像",
+        "level": 2,
+        "number": "13.1"
+      },
+      {
+        "text": "中文的恐龙参考网站",
+        "level": 2,
+        "number": "13.2"
+      },
+      {
+        "text": "英文的恐龙参考网站",
+        "level": 2,
+        "number": "13.3"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "14"
+      }
+    ],
+    "revision": 95560810,
+    "fetchedAt": "2026-11-16",
+    "traditional": "恐龍"
+  },
+  {
+    "id": "139004",
+    "title": "鸭嘴兽",
+    "canonical": "鸭嘴兽",
+    "aliases": [
+      "鸭嘴兽",
+      "鴨嘴獸"
+    ],
+    "category": "科学与自然",
+    "sections": [
+      {
+        "text": "命名",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "形态",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "习性",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "毒液",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "电磁感应",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "繁殖",
+        "level": 2,
+        "number": "3.3"
+      },
+      {
+        "text": "演化",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "文化",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "7"
+      }
+    ],
+    "revision": 95602712,
+    "fetchedAt": "2026-11-16",
+    "traditional": "鴨嘴獸"
+  },
+  {
+    "id": "74873",
+    "title": "缓步动物门",
+    "canonical": "缓步动物门",
+    "aliases": [
+      "水熊虫",
+      "缓步动物门",
+      "緩步動物門"
+    ],
+    "category": "科学与自然",
+    "sections": [
+      {
+        "text": "特征",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "缓步动物分类",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "恶劣环境下隐生与生存",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "低湿隐生",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "缺氧隐生",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "低温隐生",
+        "level": 2,
+        "number": "3.3"
+      },
+      {
+        "text": "变渗隐生",
+        "level": 2,
+        "number": "3.4"
+      },
+      {
+        "text": "在太空真空环境生存",
+        "level": 2,
+        "number": "3.5"
+      },
+      {
+        "text": "胞囊",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "生命史",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "卵",
+        "level": 2,
+        "number": "5.1"
+      },
+      {
+        "text": "幼虫",
+        "level": 2,
+        "number": "5.2"
+      },
+      {
+        "text": "成虫",
+        "level": 2,
+        "number": "5.3"
+      },
+      {
+        "text": "研究史",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "8"
+      }
+    ],
+    "revision": 93954057,
+    "fetchedAt": "2026-11-16",
+    "traditional": "緩步動物門"
+  },
+  {
+    "id": "34459",
+    "title": "丝绸之路",
+    "canonical": "丝绸之路",
+    "aliases": [
+      "丝绸之路",
+      "絲綢之路"
+    ],
+    "category": "历史与文明",
+    "sections": [
+      {
+        "text": "路线",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "传统丝路",
+        "level": 2,
+        "number": "1.1"
+      },
+      {
+        "text": "东段",
+        "level": 3,
+        "number": "1.1.1"
+      },
+      {
+        "text": "中段",
+        "level": 3,
+        "number": "1.1.2"
+      },
+      {
+        "text": "西段",
+        "level": 3,
+        "number": "1.1.3"
+      },
+      {
+        "text": "其他丝路",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "简表",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "历史发展",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "远古时期",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "最初的发展",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "中国",
+        "level": 3,
+        "number": "3.2.1"
+      },
+      {
+        "text": "中亚",
+        "level": 3,
+        "number": "3.2.2"
+      },
+      {
+        "text": "中东",
+        "level": 3,
+        "number": "3.2.3"
+      },
+      {
+        "text": "公元前1世纪到7世纪",
+        "level": 2,
+        "number": "3.3"
+      },
+      {
+        "text": "张骞的西行",
+        "level": 3,
+        "number": "3.3.1"
+      },
+      {
+        "text": "大规模的贸易",
+        "level": 3,
+        "number": "3.3.2"
+      },
+      {
+        "text": "从西方到东方",
+        "level": 2,
+        "number": "3.4"
+      },
+      {
+        "text": "被列为世界遗产",
+        "level": 2,
+        "number": "3.5"
+      },
+      {
+        "text": "经济文化交流",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "商品交流",
+        "level": 2,
+        "number": "4.1"
+      },
+      {
+        "text": "文化交流",
+        "level": 2,
+        "number": "4.2"
+      },
+      {
+        "text": "造纸印刷术的西传",
+        "level": 3,
+        "number": "4.2.1"
+      },
+      {
+        "text": "宗教思想交流",
+        "level": 3,
+        "number": "4.2.2"
+      },
+      {
+        "text": "音乐交流与文学外传",
+        "level": 3,
+        "number": "4.2.3"
+      },
+      {
+        "text": "参看",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "引用",
+        "level": 2,
+        "number": "6.1"
+      },
+      {
+        "text": "来源",
+        "level": 2,
+        "number": "6.2"
+      },
+      {
+        "text": "研究书目",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "8"
+      }
+    ],
+    "revision": 94962003,
+    "fetchedAt": "2026-11-16",
+    "traditional": "絲綢之路"
+  },
+  {
+    "id": "546226",
+    "title": "黑死病",
+    "canonical": "黑死病",
+    "aliases": [
+      "黑死病"
+    ],
+    "category": "历史与文明",
+    "sections": [
+      {
+        "text": "命名",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "病因",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "鼠疫病理",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "其他理论",
+        "level": 2,
+        "number": "2.2"
+      },
+      {
+        "text": "历史",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "起源及传播",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "鸟嘴医生",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "图片资源",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "7"
+      }
+    ],
+    "revision": 93927536,
+    "fetchedAt": "2026-11-16",
+    "traditional": "黑死病"
+  },
+  {
+    "id": "20344",
+    "title": "文艺复兴",
+    "canonical": "文艺复兴",
+    "aliases": [
+      "文艺复兴",
+      "文藝復興"
+    ],
+    "category": "历史与文明",
+    "sections": [
+      {
+        "text": "概述",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "起源",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "文艺复兴人文主义的拉丁语和希腊语时期",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "意大利的社会与政治结构",
+        "level": 2,
+        "number": "2.2"
+      },
+      {
+        "text": "黑死病对文艺复兴的影响",
+        "level": 2,
+        "number": "2.3"
+      },
+      {
+        "text": "作品思想",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "发展情况",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "自然科学",
+        "level": 2,
+        "number": "4.1"
+      },
+      {
+        "text": "文学",
+        "level": 2,
+        "number": "4.2"
+      },
+      {
+        "text": "绘画",
+        "level": 2,
+        "number": "4.3"
+      },
+      {
+        "text": "音乐",
+        "level": 2,
+        "number": "4.4"
+      },
+      {
+        "text": "舞蹈",
+        "level": 2,
+        "number": "4.5"
+      },
+      {
+        "text": "建筑",
+        "level": 2,
+        "number": "4.6"
+      },
+      {
+        "text": "代表人物",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "意大利",
+        "level": 2,
+        "number": "5.1"
+      },
+      {
+        "text": "西班牙",
+        "level": 2,
+        "number": "5.2"
+      },
+      {
+        "text": "葡萄牙",
+        "level": 2,
+        "number": "5.3"
+      },
+      {
+        "text": "德意志",
+        "level": 2,
+        "number": "5.4"
+      },
+      {
+        "text": "法国",
+        "level": 2,
+        "number": "5.5"
+      },
+      {
+        "text": "英格兰",
+        "level": 2,
+        "number": "5.6"
+      },
+      {
+        "text": "荷兰",
+        "level": 2,
+        "number": "5.7"
+      },
+      {
+        "text": "波兰",
+        "level": 2,
+        "number": "5.8"
+      },
+      {
+        "text": "历史意义",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "关于文艺复兴的不同意见",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "注释",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "9"
+      },
+      {
+        "text": "引用",
+        "level": 2,
+        "number": "9.1"
+      },
+      {
+        "text": "来源",
+        "level": 2,
+        "number": "9.2"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "10"
+      }
+    ],
+    "revision": 94536266,
+    "fetchedAt": "2026-11-16",
+    "traditional": "文藝復興"
+  },
+  {
+    "id": "902763",
+    "title": "地理大发现",
+    "canonical": "地理大发现",
+    "aliases": [
+      "大航海时代",
+      "地理大发现",
+      "地理大發現"
+    ],
+    "category": "历史与文明",
+    "sections": [
+      {
+        "text": "社会环境",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "背景",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "早期的陆路探索",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "郑和下西洋",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "葡萄牙的探索",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "恩里克王子",
+        "level": 2,
+        "number": "5.1"
+      },
+      {
+        "text": "迪亚士与达伽马的探索",
+        "level": 2,
+        "number": "5.2"
+      },
+      {
+        "text": "葡萄牙与西班牙划分势力范围",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "征服的开始与发现美洲",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "资源富饶的美洲",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "环球航行",
+        "level": 1,
+        "number": "9"
+      },
+      {
+        "text": "寻找“海峡”的麦哲伦",
+        "level": 2,
+        "number": "9.1"
+      },
+      {
+        "text": "麦哲伦的舰队",
+        "level": 2,
+        "number": "9.2"
+      },
+      {
+        "text": "航程的一部分：兵变",
+        "level": 2,
+        "number": "9.3"
+      },
+      {
+        "text": "“万圣海峡”",
+        "level": 2,
+        "number": "9.4"
+      },
+      {
+        "text": "葡萄牙垄断地位的衰落",
+        "level": 1,
+        "number": "10"
+      },
+      {
+        "text": "新兴国家的竞争",
+        "level": 1,
+        "number": "11"
+      },
+      {
+        "text": "英国的探索",
+        "level": 2,
+        "number": "11.1"
+      },
+      {
+        "text": "法国的探索",
+        "level": 2,
+        "number": "11.2"
+      },
+      {
+        "text": "荷兰的探索",
+        "level": 2,
+        "number": "11.3"
+      },
+      {
+        "text": "俄罗斯的探索",
+        "level": 2,
+        "number": "11.4"
+      },
+      {
+        "text": "探索的结束与其影响",
+        "level": 1,
+        "number": "12"
+      },
+      {
+        "text": "殖民活动",
+        "level": 2,
+        "number": "12.1"
+      },
+      {
+        "text": "对两极和海底的探索",
+        "level": 2,
+        "number": "12.2"
+      },
+      {
+        "text": "名称争议",
+        "level": 1,
+        "number": "13"
+      },
+      {
+        "text": "注释",
+        "level": 1,
+        "number": "14"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "15"
+      },
+      {
+        "text": "引用",
+        "level": 2,
+        "number": "15.1"
+      },
+      {
+        "text": "来源",
+        "level": 2,
+        "number": "15.2"
+      },
+      {
+        "text": "延伸阅读",
+        "level": 1,
+        "number": "16"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "17"
+      }
+    ],
+    "revision": 94687840,
+    "fetchedAt": "2026-11-16",
+    "traditional": "地理大發現"
+  },
+  {
+    "id": "7290317",
+    "title": "曼哈顿计划",
+    "canonical": "曼哈顿计划",
+    "aliases": [
+      "曼哈顿计划",
+      "曼哈頓計劃"
+    ],
+    "category": "历史与文明",
+    "sections": [
+      {
+        "text": "源起",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "可行性",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "提议",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "设计构想",
+        "level": 2,
+        "number": "2.2"
+      },
+      {
+        "text": "组织",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "曼哈顿区",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "军事政策委员会",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "与英国合作",
+        "level": 2,
+        "number": "3.3"
+      },
+      {
+        "text": "项目地点",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "橡树岭",
+        "level": 2,
+        "number": "4.1"
+      },
+      {
+        "text": "洛斯阿拉莫斯",
+        "level": 2,
+        "number": "4.2"
+      },
+      {
+        "text": "芝加哥",
+        "level": 2,
+        "number": "4.3"
+      },
+      {
+        "text": "汉福德",
+        "level": 2,
+        "number": "4.4"
+      },
+      {
+        "text": "加拿大地点",
+        "level": 2,
+        "number": "4.5"
+      },
+      {
+        "text": "英属哥伦比亚省",
+        "level": 3,
+        "number": "4.5.1"
+      },
+      {
+        "text": "安大略省",
+        "level": 3,
+        "number": "4.5.2"
+      },
+      {
+        "text": "西北地区",
+        "level": 3,
+        "number": "4.5.3"
+      },
+      {
+        "text": "重水生产地",
+        "level": 2,
+        "number": "4.6"
+      },
+      {
+        "text": "铀",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "矿石",
+        "level": 2,
+        "number": "5.1"
+      },
+      {
+        "text": "同位素分离",
+        "level": 2,
+        "number": "5.2"
+      },
+      {
+        "text": "离心分离法",
+        "level": 3,
+        "number": "5.2.1"
+      },
+      {
+        "text": "电磁分离法",
+        "level": 3,
+        "number": "5.2.2"
+      },
+      {
+        "text": "气体扩散法",
+        "level": 3,
+        "number": "5.2.3"
+      },
+      {
+        "text": "热扩散法",
+        "level": 3,
+        "number": "5.2.4"
+      },
+      {
+        "text": "铀-235总产量",
+        "level": 2,
+        "number": "5.3"
+      },
+      {
+        "text": "钚",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "X-10石墨反应堆",
+        "level": 2,
+        "number": "6.1"
+      },
+      {
+        "text": "汉福德反应堆",
+        "level": 2,
+        "number": "6.2"
+      },
+      {
+        "text": "分离元素",
+        "level": 2,
+        "number": "6.3"
+      },
+      {
+        "text": "武器设计",
+        "level": 2,
+        "number": "6.4"
+      },
+      {
+        "text": "三位一体",
+        "level": 2,
+        "number": "6.5"
+      },
+      {
+        "text": "人员",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "保密",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "审查",
+        "level": 2,
+        "number": "8.1"
+      },
+      {
+        "text": "苏联间谍",
+        "level": 2,
+        "number": "8.2"
+      },
+      {
+        "text": "外国情报",
+        "level": 1,
+        "number": "9"
+      },
+      {
+        "text": "广岛和长崎核爆",
+        "level": 1,
+        "number": "10"
+      },
+      {
+        "text": "准备工作",
+        "level": 2,
+        "number": "10.1"
+      },
+      {
+        "text": "轰炸",
+        "level": 2,
+        "number": "10.2"
+      },
+      {
+        "text": "轰炸终止",
+        "level": 2,
+        "number": "10.3"
+      },
+      {
+        "text": "对轰炸的争议",
+        "level": 2,
+        "number": "10.4"
+      },
+      {
+        "text": "战后",
+        "level": 1,
+        "number": "11"
+      },
+      {
+        "text": "表彰贡献",
+        "level": 2,
+        "number": "11.1"
+      },
+      {
+        "text": "后续研发活动",
+        "level": 2,
+        "number": "11.2"
+      },
+      {
+        "text": "交接",
+        "level": 2,
+        "number": "11.3"
+      },
+      {
+        "text": "成本",
+        "level": 1,
+        "number": "12"
+      },
+      {
+        "text": "遗产",
+        "level": 1,
+        "number": "13"
+      },
+      {
+        "text": "注释",
+        "level": 1,
+        "number": "14"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "15"
+      },
+      {
+        "text": "引用",
+        "level": 2,
+        "number": "15.1"
+      },
+      {
+        "text": "来源",
+        "level": 2,
+        "number": "15.2"
+      },
+      {
+        "text": "行政外交历史文件及通史",
+        "level": 3,
+        "number": "15.2.1"
+      },
+      {
+        "text": "技术历史文件",
+        "level": 3,
+        "number": "15.2.2"
+      },
+      {
+        "text": "亲历者口述",
+        "level": 3,
+        "number": "15.2.3"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "16"
+      }
+    ],
+    "revision": 94717129,
+    "fetchedAt": "2026-11-16",
+    "traditional": "曼哈頓計劃"
+  },
+  {
+    "id": "76370",
+    "title": "切尔诺贝利核事故",
+    "canonical": "切尔诺贝利核事故",
+    "aliases": [
+      "切尔诺贝利核事故",
+      "切爾諾貝利核事故"
+    ],
+    "category": "历史与文明",
+    "sections": [
+      {
+        "text": "切尔诺贝利核电厂",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "事故",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "蒸气涡轮测试计划",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "前置测试",
+        "level": 2,
+        "number": "2.2"
+      },
+      {
+        "text": "测试与爆炸",
+        "level": 2,
+        "number": "2.3"
+      },
+      {
+        "text": "消防员灭火",
+        "level": 2,
+        "number": "2.4"
+      },
+      {
+        "text": "后续处理",
+        "level": 2,
+        "number": "2.5"
+      },
+      {
+        "text": "事故原因",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "INSAG-1报告（1986）",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "INSAG-7报告（1992）",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "观点分析",
+        "level": 2,
+        "number": "3.3"
+      },
+      {
+        "text": "事故造成的影响",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "即时的辐射污染",
+        "level": 2,
+        "number": "4.1"
+      },
+      {
+        "text": "事故伤亡",
+        "level": 2,
+        "number": "4.2"
+      },
+      {
+        "text": "长期的健康影响",
+        "level": 2,
+        "number": "4.3"
+      },
+      {
+        "text": "食物限制",
+        "level": 3,
+        "number": "4.3.1"
+      },
+      {
+        "text": "对自然世界的影响",
+        "level": 2,
+        "number": "4.4"
+      },
+      {
+        "text": "政治经济影响",
+        "level": 2,
+        "number": "4.5"
+      },
+      {
+        "text": "与其他事故比较",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "事故后续",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "核电厂后续运作",
+        "level": 2,
+        "number": "6.1"
+      },
+      {
+        "text": "核电厂废墟中残留的放射性物质",
+        "level": 2,
+        "number": "6.2"
+      },
+      {
+        "text": "旧石棺",
+        "level": 2,
+        "number": "6.3"
+      },
+      {
+        "text": "新石棺",
+        "level": 2,
+        "number": "6.4"
+      },
+      {
+        "text": "相关作品",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "参看",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "注释与参考来源",
+        "level": 1,
+        "number": "9"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "10"
+      }
+    ],
+    "revision": 94603499,
+    "fetchedAt": "2026-11-16",
+    "traditional": "切爾諾貝利核事故"
+  },
+  {
+    "id": "9796",
+    "title": "阿波罗11号",
+    "canonical": "阿波罗11号",
+    "aliases": [
+      "阿波罗11号",
+      "阿波羅11號"
+    ],
+    "category": "历史与文明",
+    "sections": [
+      {
+        "text": "背景",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "人员",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "主乘组",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "替补队员",
+        "level": 2,
+        "number": "2.2"
+      },
+      {
+        "text": "支持人员",
+        "level": 2,
+        "number": "2.3"
+      },
+      {
+        "text": "航天器通讯员",
+        "level": 2,
+        "number": "2.4"
+      },
+      {
+        "text": "飞行主管",
+        "level": 2,
+        "number": "2.5"
+      },
+      {
+        "text": "其他关键人员",
+        "level": 2,
+        "number": "2.6"
+      },
+      {
+        "text": "准备",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "徽章",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "呼号",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "纪念品",
+        "level": 2,
+        "number": "3.3"
+      },
+      {
+        "text": "选址",
+        "level": 2,
+        "number": "3.4"
+      },
+      {
+        "text": "谁来走出第一步",
+        "level": 2,
+        "number": "3.5"
+      },
+      {
+        "text": "发射前",
+        "level": 2,
+        "number": "3.6"
+      },
+      {
+        "text": "任务经过",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "发射并飞往绕月轨道",
+        "level": 2,
+        "number": "4.1"
+      },
+      {
+        "text": "降落",
+        "level": 2,
+        "number": "4.2"
+      },
+      {
+        "text": "登月",
+        "level": 2,
+        "number": "4.3"
+      },
+      {
+        "text": "月表作业",
+        "level": 2,
+        "number": "4.4"
+      },
+      {
+        "text": "月面起飞",
+        "level": 2,
+        "number": "4.5"
+      },
+      {
+        "text": "绕月飞行的“哥伦比亚号”",
+        "level": 2,
+        "number": "4.6"
+      },
+      {
+        "text": "返航",
+        "level": 2,
+        "number": "4.7"
+      },
+      {
+        "text": "溅落与隔离",
+        "level": 2,
+        "number": "4.8"
+      },
+      {
+        "text": "庆典",
+        "level": 2,
+        "number": "4.9"
+      },
+      {
+        "text": "影响",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "文化冲击",
+        "level": 2,
+        "number": "5.1"
+      },
+      {
+        "text": "航天器",
+        "level": 2,
+        "number": "5.2"
+      },
+      {
+        "text": "月岩",
+        "level": 2,
+        "number": "5.3"
+      },
+      {
+        "text": "实验结果",
+        "level": 2,
+        "number": "5.4"
+      },
+      {
+        "text": "阿姆斯特朗的相机",
+        "level": 2,
+        "number": "5.5"
+      },
+      {
+        "text": "周年庆典",
+        "level": 2,
+        "number": "5.6"
+      },
+      {
+        "text": "四十周年",
+        "level": 3,
+        "number": "5.6.1"
+      },
+      {
+        "text": "五十周年",
+        "level": 3,
+        "number": "5.6.2"
+      },
+      {
+        "text": "纪录片",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "注释",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "参考资料",
+        "level": 1,
+        "number": "9"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "10"
+      }
+    ],
+    "revision": 93128443,
+    "fetchedAt": "2026-11-16",
+    "traditional": "阿波羅11號"
+  },
+  {
+    "id": "49250",
+    "title": "百年战争",
+    "canonical": "百年战争",
+    "aliases": [
+      "百年战争",
+      "百年戰爭"
+    ],
+    "category": "历史与文明",
+    "sections": [
+      {
+        "text": "起因",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "英格兰王国的大陆领地",
+        "level": 2,
+        "number": "1.1"
+      },
+      {
+        "text": "法国王位危机",
+        "level": 2,
+        "number": "1.2"
+      },
+      {
+        "text": "战争初期（1337-1345）",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "外交攻防",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "首波冲突",
+        "level": 2,
+        "number": "2.2"
+      },
+      {
+        "text": "布列塔尼继承战争",
+        "level": 2,
+        "number": "2.3"
+      },
+      {
+        "text": "第一阶段：爱德华时期（1345-1360）",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "入侵加斯科涅",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "爱德华三世的骑行劫掠行动",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "黑太子的骑行劫掠行动",
+        "level": 2,
+        "number": "3.3"
+      },
+      {
+        "text": "法王被俘",
+        "level": 2,
+        "number": "3.4"
+      },
+      {
+        "text": "布勒丁尼条约",
+        "level": 2,
+        "number": "3.5"
+      },
+      {
+        "text": "第一停战期（1360-1369）",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "法王归来",
+        "level": 2,
+        "number": "4.1"
+      },
+      {
+        "text": "智者查理",
+        "level": 2,
+        "number": "4.2"
+      },
+      {
+        "text": "介入伊比利半岛",
+        "level": 2,
+        "number": "4.3"
+      },
+      {
+        "text": "第二阶段：查理时期（1369-1380）",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "重拾战端",
+        "level": 2,
+        "number": "5.1"
+      },
+      {
+        "text": "战局逆转",
+        "level": 2,
+        "number": "5.2"
+      },
+      {
+        "text": "收复领土",
+        "level": 2,
+        "number": "5.3"
+      },
+      {
+        "text": "传奇殒落",
+        "level": 2,
+        "number": "5.4"
+      },
+      {
+        "text": "第二停战期（1380-1415）",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "休战协定",
+        "level": 2,
+        "number": "6.1"
+      },
+      {
+        "text": "社会动荡",
+        "level": 2,
+        "number": "6.2"
+      },
+      {
+        "text": "根特叛乱与德宾塞十字军",
+        "level": 2,
+        "number": "6.3"
+      },
+      {
+        "text": "法兰西内战",
+        "level": 2,
+        "number": "6.4"
+      },
+      {
+        "text": "第三阶段：兰开斯特前期（1415-1429）",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "二度入侵",
+        "level": 2,
+        "number": "7.1"
+      },
+      {
+        "text": "特鲁瓦条约",
+        "level": 2,
+        "number": "7.2"
+      },
+      {
+        "text": "争端再起",
+        "level": 2,
+        "number": "7.3"
+      },
+      {
+        "text": "第四阶段：兰开斯特后期（1429-1435）",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "奇迹降临",
+        "level": 2,
+        "number": "8.1"
+      },
+      {
+        "text": "盟军瓦解",
+        "level": 2,
+        "number": "8.2"
+      },
+      {
+        "text": "战争末期（1435-1453）",
+        "level": 1,
+        "number": "9"
+      },
+      {
+        "text": "战局停滞",
+        "level": 2,
+        "number": "9.1"
+      },
+      {
+        "text": "法军改革",
+        "level": 2,
+        "number": "9.2"
+      },
+      {
+        "text": "图尔条约",
+        "level": 2,
+        "number": "9.3"
+      },
+      {
+        "text": "战争终结",
+        "level": 2,
+        "number": "9.4"
+      },
+      {
+        "text": "影响",
+        "level": 1,
+        "number": "10"
+      },
+      {
+        "text": "军史地位",
+        "level": 1,
+        "number": "11"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "12"
+      },
+      {
+        "text": "参考来源",
+        "level": 1,
+        "number": "13"
+      },
+      {
+        "text": "引用和注释",
+        "level": 2,
+        "number": "13.1"
+      },
+      {
+        "text": "文献",
+        "level": 2,
+        "number": "13.2"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "14"
+      }
+    ],
+    "revision": 94718309,
+    "fetchedAt": "2026-11-16",
+    "traditional": "百年戰爭"
+  },
+  {
+    "id": "11731",
+    "title": "铁幕",
+    "canonical": "铁幕",
+    "aliases": [
+      "铁幕",
+      "鐵幕"
+    ],
+    "category": "历史与文明",
+    "sections": [
+      {
+        "text": "由来",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "使用",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "划分",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "图集",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "流行文化",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "7"
+      }
+    ],
+    "revision": 94253250,
+    "fetchedAt": "2026-11-16",
+    "traditional": "鐵幕"
+  },
+  {
+    "id": "217368",
+    "title": "火星文",
+    "canonical": "火星文",
+    "aliases": [
+      "火星文"
+    ],
+    "category": "文化与生活",
+    "sections": [
+      {
+        "text": "定义",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "起源",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "分类",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "来自方言或外语",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "同音、近音字",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "多字合一",
+        "level": 2,
+        "number": "3.3"
+      },
+      {
+        "text": "注音、拼音文",
+        "level": 2,
+        "number": "3.4"
+      },
+      {
+        "text": "以英数字及符号代替中文字",
+        "level": 2,
+        "number": "3.5"
+      },
+      {
+        "text": "生僻字",
+        "level": 2,
+        "number": "3.6"
+      },
+      {
+        "text": "翻译错误",
+        "level": 2,
+        "number": "3.7"
+      },
+      {
+        "text": "没有作文格式的文句",
+        "level": 2,
+        "number": "3.8"
+      },
+      {
+        "text": "混合用法",
+        "level": 2,
+        "number": "3.9"
+      },
+      {
+        "text": "扩展",
+        "level": 2,
+        "number": "3.10"
+      },
+      {
+        "text": "火星文与关键字过滤",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "教育",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "8"
+      }
+    ],
+    "revision": 93957599,
+    "fetchedAt": "2026-11-16",
+    "traditional": "火星文"
+  },
+  {
+    "id": "8008",
+    "title": "列奥纳多·达·芬奇",
+    "canonical": "列奥纳多·达·芬奇",
+    "aliases": [
+      "列奥纳多达芬奇",
+      "达芬奇",
+      "达·芬奇",
+      "列奥纳多·达·芬奇",
+      "列奧納多·達·芬奇"
+    ],
+    "category": "文化与生活",
+    "sections": [
+      {
+        "text": "生平",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "童年（1452－1466）",
+        "level": 2,
+        "number": "1.1"
+      },
+      {
+        "text": "职业生涯",
+        "level": 2,
+        "number": "1.2"
+      },
+      {
+        "text": "科学与工程",
+        "level": 2,
+        "number": "1.3"
+      },
+      {
+        "text": "解剖学",
+        "level": 3,
+        "number": "1.3.1"
+      },
+      {
+        "text": "发明及工程学",
+        "level": 3,
+        "number": "1.3.2"
+      },
+      {
+        "text": "手稿",
+        "level": 3,
+        "number": "1.3.3"
+      },
+      {
+        "text": "个人",
+        "level": 2,
+        "number": "1.4"
+      },
+      {
+        "text": "性取向",
+        "level": 3,
+        "number": "1.4.1"
+      },
+      {
+        "text": "素食主义",
+        "level": 3,
+        "number": "1.4.2"
+      },
+      {
+        "text": "指纹",
+        "level": 3,
+        "number": "1.4.3"
+      },
+      {
+        "text": "睡眠",
+        "level": 3,
+        "number": "1.4.4"
+      },
+      {
+        "text": "宗教信仰",
+        "level": 3,
+        "number": "1.4.5"
+      },
+      {
+        "text": "评价",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "代表性作品",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "图集",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "大众文化",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "注释",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "引用",
+        "level": 2,
+        "number": "6.1"
+      },
+      {
+        "text": "来源",
+        "level": 2,
+        "number": "6.2"
+      },
+      {
+        "text": "延伸阅读",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "9"
+      }
+    ],
+    "revision": 93707315,
+    "fetchedAt": "2026-11-16",
+    "traditional": "列奧納多·達·芬奇"
+  },
+  {
+    "id": "55927",
+    "title": "蒙娜丽莎",
+    "canonical": "蒙娜丽莎",
+    "aliases": [
+      "蒙娜丽莎",
+      "蒙娜麗莎"
+    ],
+    "category": "文化与生活",
+    "sections": [
+      {
+        "text": "命名",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "作者",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "历史",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "16世纪",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "失窃",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "近代",
+        "level": 2,
+        "number": "3.3"
+      },
+      {
+        "text": "当代",
+        "level": 2,
+        "number": "3.4"
+      },
+      {
+        "text": "审美",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "画布及保存",
+        "level": 2,
+        "number": "4.1"
+      },
+      {
+        "text": "布局",
+        "level": 2,
+        "number": "4.2"
+      },
+      {
+        "text": "技术",
+        "level": 2,
+        "number": "4.3"
+      },
+      {
+        "text": "谜团",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "神秘的笑容",
+        "level": 2,
+        "number": "5.1"
+      },
+      {
+        "text": "据称怀孕和身体状况",
+        "level": 2,
+        "number": "5.2"
+      },
+      {
+        "text": "画中人",
+        "level": 2,
+        "number": "5.3"
+      },
+      {
+        "text": "丽莎·乔宫多理论",
+        "level": 3,
+        "number": "5.3.1"
+      },
+      {
+        "text": "伊莎贝拉·埃斯特理论",
+        "level": 3,
+        "number": "5.3.2"
+      },
+      {
+        "text": "其他理论",
+        "level": 2,
+        "number": "5.4"
+      },
+      {
+        "text": "遗产",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "早期版本和副本",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "普拉多蒙娜丽莎",
+        "level": 2,
+        "number": "7.1"
+      },
+      {
+        "text": "艾尔沃斯蒙娜丽莎",
+        "level": 2,
+        "number": "7.2"
+      },
+      {
+        "text": "冬宫蒙娜丽莎",
+        "level": 2,
+        "number": "7.3"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "注释与参考文献",
+        "level": 1,
+        "number": "9"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "10"
+      }
+    ],
+    "revision": 93749531,
+    "fetchedAt": "2026-11-16",
+    "traditional": "蒙娜麗莎"
+  },
+  {
+    "id": "24395",
+    "title": "清明上河图",
+    "canonical": "清明上河圖",
+    "aliases": [
+      "清明上河圖",
+      "清明上河图"
+    ],
+    "category": "文化与生活",
+    "sections": [
+      {
+        "text": "布局",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "原作",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "摹本",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "仇本",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "清院本",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "清沈源本",
+        "level": 2,
+        "number": "3.3"
+      },
+      {
+        "text": "展览",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "电子动态版",
+        "level": 2,
+        "number": "4.1"
+      },
+      {
+        "text": "LEGO版",
+        "level": 2,
+        "number": "4.2"
+      },
+      {
+        "text": "图片",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "后世评价",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "分析",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "名称",
+        "level": 2,
+        "number": "7.1"
+      },
+      {
+        "text": "内容",
+        "level": 2,
+        "number": "7.2"
+      },
+      {
+        "text": "另见",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "9"
+      },
+      {
+        "text": "注释",
+        "level": 2,
+        "number": "9.1"
+      },
+      {
+        "text": "来源",
+        "level": 2,
+        "number": "9.2"
+      },
+      {
+        "text": "书籍",
+        "level": 2,
+        "number": "9.3"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "10"
+      }
+    ],
+    "revision": 95367505,
+    "fetchedAt": "2026-11-16",
+    "traditional": "清明上河圖"
+  },
+  {
+    "id": "124728",
+    "title": "百年孤独",
+    "canonical": "百年孤独",
+    "aliases": [
+      "百年孤独",
+      "百年孤獨"
+    ],
+    "category": "文化与生活",
+    "sections": [
+      {
+        "text": "创作背景",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "人物介绍",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "波恩地亚家族族谱",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "第一代",
+        "level": 2,
+        "number": "2.2"
+      },
+      {
+        "text": "第二代",
+        "level": 2,
+        "number": "2.3"
+      },
+      {
+        "text": "第三代",
+        "level": 2,
+        "number": "2.4"
+      },
+      {
+        "text": "第四代",
+        "level": 2,
+        "number": "2.5"
+      },
+      {
+        "text": "第五代",
+        "level": 2,
+        "number": "2.6"
+      },
+      {
+        "text": "第六代",
+        "level": 2,
+        "number": "2.7"
+      },
+      {
+        "text": "第七代",
+        "level": 2,
+        "number": "2.8"
+      },
+      {
+        "text": "其他角色",
+        "level": 2,
+        "number": "2.9"
+      },
+      {
+        "text": "评价",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "影视改编",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "翻译情况",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "中国大陆出版版权问题",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "中文文学影响与衍生作品",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "注释",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "参考资料",
+        "level": 1,
+        "number": "9"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "10"
+      }
+    ],
+    "revision": 95151839,
+    "fetchedAt": "2026-11-16",
+    "traditional": "百年孤獨"
+  },
+  {
+    "id": "59223",
+    "title": "小王子",
+    "canonical": "小王子",
+    "aliases": [
+      "小王子"
+    ],
+    "category": "文化与生活",
+    "sections": [
+      {
+        "text": "情节",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "语调与创作风格",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "灵感来源",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "事件与人物",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "小王子的形象",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "小说创作",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "插图与手稿",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "译本与发行",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "中文译本",
+        "level": 2,
+        "number": "6.1"
+      },
+      {
+        "text": "改编",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "荣誉与历史",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "博物馆与展览",
+        "level": 2,
+        "number": "8.1"
+      },
+      {
+        "text": "天文学",
+        "level": 2,
+        "number": "8.2"
+      },
+      {
+        "text": "钱币与邮票",
+        "level": 2,
+        "number": "8.3"
+      },
+      {
+        "text": "笔记本",
+        "level": 2,
+        "number": "8.4"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "9"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "10"
+      }
+    ],
+    "revision": 95272972,
+    "fetchedAt": "2026-11-16",
+    "traditional": "小王子"
+  },
+  {
+    "id": "65108",
+    "title": "一九八四",
+    "canonical": "一九八四",
+    "aliases": [
+      "1984",
+      "一九八四"
+    ],
+    "category": "文化与生活",
+    "sections": [
+      {
+        "text": "历史及书名",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "常见的误解",
+        "level": 2,
+        "number": "1.1"
+      },
+      {
+        "text": "版权状态",
+        "level": 2,
+        "number": "1.2"
+      },
+      {
+        "text": "故事",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "背景",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "情节",
+        "level": 2,
+        "number": "2.2"
+      },
+      {
+        "text": "温斯顿·史密斯",
+        "level": 3,
+        "number": "2.2.1"
+      },
+      {
+        "text": "裘利亚",
+        "level": 3,
+        "number": "2.2.2"
+      },
+      {
+        "text": "逮捕",
+        "level": 3,
+        "number": "2.2.3"
+      },
+      {
+        "text": "忏悔和背叛",
+        "level": 3,
+        "number": "2.2.4"
+      },
+      {
+        "text": "与裘利亚重逢",
+        "level": 3,
+        "number": "2.2.5"
+      },
+      {
+        "text": "投降与转变",
+        "level": 3,
+        "number": "2.2.6"
+      },
+      {
+        "text": "角色",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "主要角色",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "其他角色",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "世界观",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "英社（英国社会主义）",
+        "level": 2,
+        "number": "4.1"
+      },
+      {
+        "text": "双重思想",
+        "level": 2,
+        "number": "4.2"
+      },
+      {
+        "text": "国际社会",
+        "level": 2,
+        "number": "4.3"
+      },
+      {
+        "text": "政府",
+        "level": 2,
+        "number": "4.4"
+      },
+      {
+        "text": "革命",
+        "level": 2,
+        "number": "4.5"
+      },
+      {
+        "text": "战争",
+        "level": 2,
+        "number": "4.6"
+      },
+      {
+        "text": "生活水准",
+        "level": 2,
+        "number": "4.7"
+      },
+      {
+        "text": "探讨议题",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "民族主义",
+        "level": 2,
+        "number": "5.1"
+      },
+      {
+        "text": "审查",
+        "level": 2,
+        "number": "5.2"
+      },
+      {
+        "text": "监控",
+        "level": 2,
+        "number": "5.3"
+      },
+      {
+        "text": "服从与自由意志",
+        "level": 2,
+        "number": "5.4"
+      },
+      {
+        "text": "新话法则附录",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "小说的构想来源",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "翻译及传播",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "反响",
+        "level": 1,
+        "number": "9"
+      },
+      {
+        "text": "影响",
+        "level": 1,
+        "number": "10"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "11"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "12"
+      },
+      {
+        "text": "引用",
+        "level": 2,
+        "number": "12.1"
+      },
+      {
+        "text": "来源",
+        "level": 2,
+        "number": "12.2"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "13"
+      },
+      {
+        "text": "电子书",
+        "level": 2,
+        "number": "13.1"
+      },
+      {
+        "text": "电影",
+        "level": 2,
+        "number": "13.2"
+      }
+    ],
+    "revision": 95173139,
+    "fetchedAt": "2026-11-16",
+    "traditional": "一九八四"
+  },
+  {
+    "id": "633483",
+    "title": "三体",
+    "canonical": "三體",
+    "aliases": [
+      "三体",
+      "三體"
+    ],
+    "category": "文化与生活",
+    "sections": [
+      {
+        "text": "科学",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "文化",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "刘慈欣小说及衍生作品",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "《诗》",
+        "level": 2,
+        "number": "2.2"
+      },
+      {
+        "text": "宋代文学",
+        "level": 2,
+        "number": "2.3"
+      }
+    ],
+    "revision": 95255270,
+    "fetchedAt": "2026-11-16",
+    "traditional": "三體"
+  },
+  {
+    "id": "697336",
+    "title": "楚门的世界",
+    "canonical": "楚門的世界",
+    "aliases": [
+      "楚門的世界",
+      "楚门的世界"
+    ],
+    "category": "文化与生活",
+    "sections": [
+      {
+        "text": "剧情",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "演员",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "制作",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "评价",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "荣誉",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "相关条目",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "参考资料",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "8"
+      }
+    ],
+    "revision": 95389361,
+    "fetchedAt": "2026-11-16",
+    "traditional": "楚門的世界"
+  },
+  {
+    "id": "319167",
+    "title": "俄罗斯方块",
+    "canonical": "俄羅斯方塊",
+    "aliases": [
+      "俄罗斯方块",
+      "俄羅斯方塊"
+    ],
+    "category": "文化与生活",
+    "sections": [
+      {
+        "text": "简介",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "背景音乐",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "游戏系统",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "计分系统",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "衍生游戏",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "知识产权问题",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "评价",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "治疗功效",
+        "level": 2,
+        "number": "6.1"
+      },
+      {
+        "text": "参考资料",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "9"
+      }
+    ],
+    "revision": 95090080,
+    "fetchedAt": "2026-11-16",
+    "traditional": "俄羅斯方塊"
+  },
+  {
+    "id": "48087",
+    "title": "魔方",
+    "canonical": "魔方",
+    "aliases": [
+      "魔方"
+    ],
+    "category": "文化与生活",
+    "sections": [
+      {
+        "text": "魔术方块的历史",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "早期的尝试",
+        "level": 2,
+        "number": "1.1"
+      },
+      {
+        "text": "第一个魔术方块",
+        "level": 2,
+        "number": "1.2"
+      },
+      {
+        "text": "流行",
+        "level": 2,
+        "number": "1.3"
+      },
+      {
+        "text": "更多种类的魔术方块",
+        "level": 2,
+        "number": "1.4"
+      },
+      {
+        "text": "比赛",
+        "level": 2,
+        "number": "1.5"
+      },
+      {
+        "text": "细节",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "配色",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "日本配色",
+        "level": 3,
+        "number": "2.1.1"
+      },
+      {
+        "text": "官方配色",
+        "level": 3,
+        "number": "2.1.2"
+      },
+      {
+        "text": "V-Cube公司配色",
+        "level": 3,
+        "number": "2.1.3"
+      },
+      {
+        "text": "韩国配色",
+        "level": 3,
+        "number": "2.1.4"
+      },
+      {
+        "text": "其他配色",
+        "level": 3,
+        "number": "2.1.5"
+      },
+      {
+        "text": "结构",
+        "level": 2,
+        "number": "2.2"
+      },
+      {
+        "text": "魔方公式书写方式",
+        "level": 2,
+        "number": "2.3"
+      },
+      {
+        "text": "延伸",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "四轴魔术方块",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "钻石魔术方块",
+        "level": 3,
+        "number": "3.1.1"
+      },
+      {
+        "text": "金字塔魔方",
+        "level": 3,
+        "number": "3.1.2"
+      },
+      {
+        "text": "六轴魔术方块",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "二阶魔术方块",
+        "level": 3,
+        "number": "3.2.1"
+      },
+      {
+        "text": "三阶魔术方块",
+        "level": 3,
+        "number": "3.2.2"
+      },
+      {
+        "text": "镜面魔方",
+        "level": 4,
+        "number": "3.2.2.1"
+      },
+      {
+        "text": "四阶魔术方块",
+        "level": 3,
+        "number": "3.2.3"
+      },
+      {
+        "text": "五阶魔术方块",
+        "level": 3,
+        "number": "3.2.4"
+      },
+      {
+        "text": "六阶魔术方块",
+        "level": 3,
+        "number": "3.2.5"
+      },
+      {
+        "text": "七阶魔术方块",
+        "level": 3,
+        "number": "3.2.6"
+      },
+      {
+        "text": "八阶或以上魔方",
+        "level": 3,
+        "number": "3.2.7"
+      },
+      {
+        "text": "空心魔术方块",
+        "level": 3,
+        "number": "3.2.8"
+      },
+      {
+        "text": "八轴魔术方块",
+        "level": 2,
+        "number": "3.3"
+      },
+      {
+        "text": "十二轴魔术方块",
+        "level": 2,
+        "number": "3.4"
+      },
+      {
+        "text": "五魔术方块",
+        "level": 3,
+        "number": "3.4.1"
+      },
+      {
+        "text": "亚历山大之星",
+        "level": 3,
+        "number": "3.4.2"
+      },
+      {
+        "text": "十二轴菱形十二面体",
+        "level": 3,
+        "number": "3.4.3"
+      },
+      {
+        "text": "直升机方块",
+        "level": 3,
+        "number": "3.4.4"
+      },
+      {
+        "text": "多轴魔术方块",
+        "level": 2,
+        "number": "3.5"
+      },
+      {
+        "text": "Tuttminx",
+        "level": 3,
+        "number": "3.5.1"
+      },
+      {
+        "text": "其他魔方",
+        "level": 2,
+        "number": "3.6"
+      },
+      {
+        "text": "Square-1",
+        "level": 3,
+        "number": "3.6.1"
+      },
+      {
+        "text": "电子魔术方块",
+        "level": 2,
+        "number": "3.7"
+      },
+      {
+        "text": "E-CUBE电子魔方",
+        "level": 3,
+        "number": "3.7.1"
+      },
+      {
+        "text": "魔方的Mod制造",
+        "level": 2,
+        "number": "3.8"
+      },
+      {
+        "text": "世界魔方协会（WCA）",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "玩法、比赛规则",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "速解",
+        "level": 2,
+        "number": "5.1"
+      },
+      {
+        "text": "观察",
+        "level": 2,
+        "number": "5.2"
+      },
+      {
+        "text": "盲解",
+        "level": 2,
+        "number": "5.3"
+      },
+      {
+        "text": "多颗盲解",
+        "level": 2,
+        "number": "5.4"
+      },
+      {
+        "text": "最少步骤还原",
+        "level": 2,
+        "number": "5.5"
+      },
+      {
+        "text": "单手解",
+        "level": 2,
+        "number": "5.6"
+      },
+      {
+        "text": "脚解",
+        "level": 2,
+        "number": "5.7"
+      },
+      {
+        "text": "世界纪录",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "魔术方块官方纪录",
+        "level": 2,
+        "number": "6.1"
+      },
+      {
+        "text": "非官方纪录",
+        "level": 2,
+        "number": "6.2"
+      },
+      {
+        "text": "魔方数学方程式",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "变化数",
+        "level": 2,
+        "number": "7.1"
+      },
+      {
+        "text": "制造的极限",
+        "level": 2,
+        "number": "7.2"
+      },
+      {
+        "text": "电脑与魔方",
+        "level": 2,
+        "number": "7.3"
+      },
+      {
+        "text": "上帝的数字",
+        "level": 3,
+        "number": "7.3.1"
+      },
+      {
+        "text": "基于深度学习和量子力学的解决方案",
+        "level": 2,
+        "number": "7.4"
+      },
+      {
+        "text": "对于世界的影响",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "生活中的魔方",
+        "level": 2,
+        "number": "8.1"
+      },
+      {
+        "text": "电影中的魔方",
+        "level": 2,
+        "number": "8.2"
+      },
+      {
+        "text": "参考条目",
+        "level": 1,
+        "number": "9"
+      },
+      {
+        "text": "注释",
+        "level": 1,
+        "number": "10"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "11"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "12"
+      }
+    ],
+    "revision": 95311747,
+    "fetchedAt": "2026-11-16",
+    "traditional": "魔方"
+  },
+  {
+    "id": "5728040",
+    "title": "狼人杀",
+    "canonical": "狼人殺",
+    "aliases": [
+      "狼人殺",
+      "狼人杀"
+    ],
+    "category": "文化与生活",
+    "sections": [
+      {
+        "text": "基本玩法",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "游戏角色",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "常见角色",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "常见游戏配置",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "衍生综艺节目",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "节目单元",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "衍生电影及电视剧",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "衍生歌曲",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "参考资料",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "9"
+      }
+    ],
+    "revision": 95625189,
+    "fetchedAt": "2026-11-16",
+    "traditional": "狼人殺"
+  },
+  {
+    "id": "532403",
+    "title": "密室逃脱",
+    "canonical": "密室逃脱",
+    "aliases": [
+      "密室逃脱",
+      "密室逃脫"
+    ],
+    "category": "文化与生活",
+    "sections": [
+      {
+        "text": "实景游戏",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "教育应用",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "电子游戏",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "5"
+      }
+    ],
+    "revision": 95229273,
+    "fetchedAt": "2026-11-16",
+    "traditional": "密室逃脫"
+  },
+  {
+    "id": "178690",
+    "title": "佛跳墙",
+    "canonical": "佛跳墙",
+    "aliases": [
+      "佛跳墙",
+      "佛跳牆"
+    ],
+    "category": "文化与生活",
+    "sections": [
+      {
+        "text": "历史",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "传说",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "材料",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "烹调程序",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "6"
+      }
+    ],
+    "revision": 94091613,
+    "fetchedAt": "2026-11-16",
+    "traditional": "佛跳牆"
+  },
+  {
+    "id": "40129",
+    "title": "臭豆腐",
+    "canonical": "臭豆腐",
+    "aliases": [
+      "臭豆腐"
+    ],
+    "category": "文化与生活",
+    "sections": [
+      {
+        "text": "起源",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "制作过程",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "臭豆腐干",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "臭卤水",
+        "level": 2,
+        "number": "2.2"
+      },
+      {
+        "text": "料理方式",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "油炸臭豆腐",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "臭豆腐火锅",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "臭豆腐乳",
+        "level": 2,
+        "number": "3.3"
+      },
+      {
+        "text": "炭烤臭豆腐",
+        "level": 2,
+        "number": "3.4"
+      },
+      {
+        "text": "清蒸臭豆腐",
+        "level": 2,
+        "number": "3.5"
+      },
+      {
+        "text": "各地臭豆腐",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "长沙湘式臭豆腐",
+        "level": 2,
+        "number": "4.1"
+      },
+      {
+        "text": "南京臭豆腐",
+        "level": 2,
+        "number": "4.2"
+      },
+      {
+        "text": "绍兴臭豆腐",
+        "level": 2,
+        "number": "4.3"
+      },
+      {
+        "text": "其他",
+        "level": 2,
+        "number": "4.4"
+      },
+      {
+        "text": "环境问题",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "食品安全问题",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "图片集",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "9"
+      }
+    ],
+    "revision": 95364187,
+    "fetchedAt": "2026-11-16",
+    "traditional": "臭豆腐"
+  },
+  {
+    "id": "556383",
+    "title": "螺蛳粉",
+    "canonical": "螺蛳粉",
+    "aliases": [
+      "螺蛳粉",
+      "螺螄粉"
+    ],
+    "category": "文化与生活",
+    "sections": [
+      {
+        "text": "起源",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "英文名称",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "配料",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "制作方法",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "速食化",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "事件",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "特别调味争议",
+        "level": 2,
+        "number": "6.1"
+      },
+      {
+        "text": "参考资料",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "8"
+      }
+    ],
+    "revision": 94514688,
+    "fetchedAt": "2026-11-16",
+    "traditional": "螺螄粉"
+  },
+  {
+    "id": "38843",
+    "title": "咖啡",
+    "canonical": "咖啡",
+    "aliases": [
+      "咖啡"
+    ],
+    "category": "文化与生活",
+    "sections": [
+      {
+        "text": "历史",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "主要成分",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "豆种及产地",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "豆种",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "产地",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "拉丁美洲（中南美洲）",
+        "level": 3,
+        "number": "3.2.1"
+      },
+      {
+        "text": "非洲",
+        "level": 3,
+        "number": "3.2.2"
+      },
+      {
+        "text": "西亚和南亚",
+        "level": 3,
+        "number": "3.2.3"
+      },
+      {
+        "text": "东亚、东南亚和太平洋诸岛",
+        "level": 3,
+        "number": "3.2.4"
+      },
+      {
+        "text": "制作工序",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "采收",
+        "level": 2,
+        "number": "4.1"
+      },
+      {
+        "text": "加工",
+        "level": 2,
+        "number": "4.2"
+      },
+      {
+        "text": "日晒法",
+        "level": 3,
+        "number": "4.2.1"
+      },
+      {
+        "text": "水洗法",
+        "level": 3,
+        "number": "4.2.2"
+      },
+      {
+        "text": "蜜处理",
+        "level": 3,
+        "number": "4.2.3"
+      },
+      {
+        "text": "半日晒",
+        "level": 3,
+        "number": "4.2.4"
+      },
+      {
+        "text": "半水洗",
+        "level": 3,
+        "number": "4.2.5"
+      },
+      {
+        "text": "厌氧发酵",
+        "level": 3,
+        "number": "4.2.6"
+      },
+      {
+        "text": "烘焙",
+        "level": 2,
+        "number": "4.3"
+      },
+      {
+        "text": "冲煮方式",
+        "level": 2,
+        "number": "4.4"
+      },
+      {
+        "text": "磨制",
+        "level": 3,
+        "number": "4.4.1"
+      },
+      {
+        "text": "萃取",
+        "level": 3,
+        "number": "4.4.2"
+      },
+      {
+        "text": "浸泡法",
+        "level": 4,
+        "number": "4.4.2.1"
+      },
+      {
+        "text": "煎煮法",
+        "level": 4,
+        "number": "4.4.2.2"
+      },
+      {
+        "text": "循环法",
+        "level": 4,
+        "number": "4.4.2.3"
+      },
+      {
+        "text": "滴滤法",
+        "level": 4,
+        "number": "4.4.2.4"
+      },
+      {
+        "text": "虹吸法",
+        "level": 4,
+        "number": "4.4.2.5"
+      },
+      {
+        "text": "压力法",
+        "level": 4,
+        "number": "4.4.2.6"
+      },
+      {
+        "text": "与不同水种类配搭",
+        "level": 3,
+        "number": "4.4.3"
+      },
+      {
+        "text": "咖啡饮料",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "不加调味料的咖啡（黑咖啡）",
+        "level": 2,
+        "number": "5.1"
+      },
+      {
+        "text": "加入奶等甜味调味料的咖啡",
+        "level": 2,
+        "number": "5.2"
+      },
+      {
+        "text": "图集",
+        "level": 2,
+        "number": "5.3"
+      },
+      {
+        "text": "健康影响",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "公平贸易",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "注释",
+        "level": 1,
+        "number": "9"
+      },
+      {
+        "text": "参考资料",
+        "level": 1,
+        "number": "10"
+      },
+      {
+        "text": "延伸阅读",
+        "level": 1,
+        "number": "11"
+      }
+    ],
+    "revision": 95488032,
+    "fetchedAt": "2026-11-16",
+    "traditional": "咖啡"
+  },
+  {
+    "id": "41836",
+    "title": "巧克力",
+    "canonical": "巧克力",
+    "aliases": [
+      "巧克力"
+    ],
+    "category": "文化与生活",
+    "sections": [
+      {
+        "text": "词源",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "简史",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "制作",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "种类",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "牛奶巧克力",
+        "level": 2,
+        "number": "4.1"
+      },
+      {
+        "text": "白巧克力",
+        "level": 2,
+        "number": "4.2"
+      },
+      {
+        "text": "黑巧克力",
+        "level": 2,
+        "number": "4.3"
+      },
+      {
+        "text": "无糖巧克力",
+        "level": 2,
+        "number": "4.4"
+      },
+      {
+        "text": "成分",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "营养物质",
+        "level": 2,
+        "number": "5.1"
+      },
+      {
+        "text": "对健康的影响",
+        "level": 2,
+        "number": "5.2"
+      },
+      {
+        "text": "产业",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "制造商",
+        "level": 2,
+        "number": "6.1"
+      },
+      {
+        "text": "业界标准",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "国际",
+        "level": 2,
+        "number": "7.1"
+      },
+      {
+        "text": "欧盟",
+        "level": 2,
+        "number": "7.2"
+      },
+      {
+        "text": "韩国",
+        "level": 2,
+        "number": "7.3"
+      },
+      {
+        "text": "中国大陆",
+        "level": 2,
+        "number": "7.4"
+      },
+      {
+        "text": "日本",
+        "level": 2,
+        "number": "7.5"
+      },
+      {
+        "text": "台湾",
+        "level": 2,
+        "number": "7.6"
+      },
+      {
+        "text": "相关景点",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "9"
+      },
+      {
+        "text": "注释",
+        "level": 1,
+        "number": "10"
+      },
+      {
+        "text": "参考来源",
+        "level": 1,
+        "number": "11"
+      },
+      {
+        "text": "延伸阅读",
+        "level": 1,
+        "number": "12"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "13"
+      }
+    ],
+    "revision": 95608042,
+    "fetchedAt": "2026-11-16",
+    "traditional": "巧克力"
+  },
+  {
+    "id": "29900",
+    "title": "爵士乐",
+    "canonical": "爵士乐",
+    "aliases": [
+      "爵士乐",
+      "爵士樂"
+    ],
+    "category": "文化与生活",
+    "sections": [
+      {
+        "text": "语源与定义",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "爵士乐的历史",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "爵士乐的根源",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "二十世纪早期",
+        "level": 2,
+        "number": "2.2"
+      },
+      {
+        "text": "爵士乐的类型",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "摇摆大乐团（Big band swing）",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "波普乐（Bebop）",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "酷派爵士（Cool）",
+        "level": 2,
+        "number": "3.3"
+      },
+      {
+        "text": "硬博普乐（Hardbop）",
+        "level": 2,
+        "number": "3.4"
+      },
+      {
+        "text": "后咆勃（Post-bop）",
+        "level": 2,
+        "number": "3.5"
+      },
+      {
+        "text": "自由爵士（Free Jazz）",
+        "level": 2,
+        "number": "3.6"
+      },
+      {
+        "text": "融合爵士（Fusion）",
+        "level": 2,
+        "number": "3.7"
+      },
+      {
+        "text": "当代爵士（Contemporary Jazz）",
+        "level": 2,
+        "number": "3.8"
+      },
+      {
+        "text": "美国以外的爵士乐发展",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "香港",
+        "level": 2,
+        "number": "4.1"
+      },
+      {
+        "text": "中国",
+        "level": 2,
+        "number": "4.2"
+      },
+      {
+        "text": "日本",
+        "level": 2,
+        "number": "4.3"
+      },
+      {
+        "text": "台湾",
+        "level": 2,
+        "number": "4.4"
+      },
+      {
+        "text": "马来西亚",
+        "level": 2,
+        "number": "4.5"
+      },
+      {
+        "text": "著名的爵士音乐学院",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "美国",
+        "level": 2,
+        "number": "5.1"
+      },
+      {
+        "text": "英国",
+        "level": 2,
+        "number": "5.2"
+      },
+      {
+        "text": "荷兰",
+        "level": 2,
+        "number": "5.3"
+      },
+      {
+        "text": "芬兰",
+        "level": 2,
+        "number": "5.4"
+      },
+      {
+        "text": "台湾",
+        "level": 2,
+        "number": "5.5"
+      },
+      {
+        "text": "日本",
+        "level": 2,
+        "number": "5.6"
+      },
+      {
+        "text": "俄罗斯",
+        "level": 2,
+        "number": "5.7"
+      },
+      {
+        "text": "相关条目",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "9"
+      }
+    ],
+    "revision": 95241566,
+    "fetchedAt": "2026-11-16",
+    "traditional": "爵士樂"
+  },
+  {
+    "id": "604341",
+    "title": "摇滚乐",
+    "canonical": "摇滚乐",
+    "aliases": [
+      "摇滚乐",
+      "搖滾樂"
+    ],
+    "category": "文化与生活",
+    "sections": [
+      {
+        "text": "发展",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "特征",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "20世纪50年代中期至60年代早期",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "早期英国摇滚乐",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "1960年代车库摇滚",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "1960年代冲浪音乐",
+        "level": 2,
+        "number": "3.3"
+      },
+      {
+        "text": "作为反文化运动的摇滚乐（1963-1974）",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "民间摇滚",
+        "level": 2,
+        "number": "4.1"
+      },
+      {
+        "text": "迷幻摇滚",
+        "level": 2,
+        "number": "4.2"
+      },
+      {
+        "text": "前卫摇滚",
+        "level": 2,
+        "number": "4.3"
+      },
+      {
+        "text": "慢摇滚",
+        "level": 2,
+        "number": "4.4"
+      },
+      {
+        "text": "70年代中晚期",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "硬摇滚与重金属",
+        "level": 2,
+        "number": "5.1"
+      },
+      {
+        "text": "舞台摇滚",
+        "level": 2,
+        "number": "5.2"
+      },
+      {
+        "text": "庞克摇滚",
+        "level": 2,
+        "number": "5.3"
+      },
+      {
+        "text": "新浪潮",
+        "level": 2,
+        "number": "5.4"
+      },
+      {
+        "text": "后朋克",
+        "level": 2,
+        "number": "5.5"
+      },
+      {
+        "text": "1980年代，摇滚乐的多元化",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "华丽金属",
+        "level": 2,
+        "number": "6.1"
+      },
+      {
+        "text": "器乐摇滚",
+        "level": 2,
+        "number": "6.2"
+      },
+      {
+        "text": "另类音乐与独立运动",
+        "level": 2,
+        "number": "6.3"
+      },
+      {
+        "text": "另类摇滚乐登堂入室（90年代早期和中期）",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "油渍摇滚",
+        "level": 2,
+        "number": "7.1"
+      },
+      {
+        "text": "英伦摇滚（Britpop）",
+        "level": 2,
+        "number": "7.2"
+      },
+      {
+        "text": "独立摇滚",
+        "level": 2,
+        "number": "7.3"
+      },
+      {
+        "text": "特征",
+        "level": 3,
+        "number": "7.3.1"
+      },
+      {
+        "text": "历史",
+        "level": 3,
+        "number": "7.3.2"
+      },
+      {
+        "text": "混合类型的成功",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "流行朋克",
+        "level": 2,
+        "number": "8.1"
+      },
+      {
+        "text": "发展",
+        "level": 3,
+        "number": "8.1.1"
+      },
+      {
+        "text": "后油渍摇滚",
+        "level": 2,
+        "number": "8.2"
+      },
+      {
+        "text": "新金属与说唱摇滚",
+        "level": 2,
+        "number": "8.3"
+      },
+      {
+        "text": "近期发展（2000-现在）",
+        "level": 1,
+        "number": "9"
+      },
+      {
+        "text": "互联网的影响",
+        "level": 2,
+        "number": "9.1"
+      },
+      {
+        "text": "复兴车库摇滚",
+        "level": 2,
+        "number": "9.2"
+      },
+      {
+        "text": "情感核",
+        "level": 2,
+        "number": "9.3"
+      },
+      {
+        "text": "金属核",
+        "level": 2,
+        "number": "9.4"
+      },
+      {
+        "text": "喜剧摇滚",
+        "level": 2,
+        "number": "9.5"
+      },
+      {
+        "text": "对摇滚乐的评价",
+        "level": 1,
+        "number": "10"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "11"
+      }
+    ],
+    "revision": 95207146,
+    "fetchedAt": "2026-11-16",
+    "traditional": "搖滾樂"
+  },
+  {
+    "id": "147828",
+    "title": "赛博朋克",
+    "canonical": "赛博朋克",
+    "aliases": [
+      "赛博朋克",
+      "賽博朋克"
+    ],
+    "category": "文化与生活",
+    "sections": [
+      {
+        "text": "背景",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "风格",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "平面作品",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "小说",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "漫画",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "影视作品",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "电影",
+        "level": 2,
+        "number": "4.1"
+      },
+      {
+        "text": "待上映",
+        "level": 3,
+        "number": "4.1.1"
+      },
+      {
+        "text": "电视剧",
+        "level": 2,
+        "number": "4.2"
+      },
+      {
+        "text": "待上映",
+        "level": 3,
+        "number": "4.2.1"
+      },
+      {
+        "text": "动画",
+        "level": 2,
+        "number": "4.3"
+      },
+      {
+        "text": "游戏作品",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "流行文化",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "文学",
+        "level": 2,
+        "number": "6.1"
+      },
+      {
+        "text": "影响",
+        "level": 3,
+        "number": "6.1.1"
+      },
+      {
+        "text": "电影电视",
+        "level": 2,
+        "number": "6.2"
+      },
+      {
+        "text": "动画和漫画",
+        "level": 2,
+        "number": "6.3"
+      },
+      {
+        "text": "影响",
+        "level": 3,
+        "number": "6.3.1"
+      },
+      {
+        "text": "游戏",
+        "level": 2,
+        "number": "6.4"
+      },
+      {
+        "text": "音乐",
+        "level": 2,
+        "number": "6.5"
+      },
+      {
+        "text": "社会影响",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "艺术与建筑",
+        "level": 2,
+        "number": "7.1"
+      },
+      {
+        "text": "社会与反社会",
+        "level": 2,
+        "number": "7.2"
+      },
+      {
+        "text": "相关流派",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "常见元素",
+        "level": 1,
+        "number": "9"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "10"
+      },
+      {
+        "text": "参考资料",
+        "level": 1,
+        "number": "11"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "12"
+      }
+    ],
+    "revision": 95551018,
+    "fetchedAt": "2026-11-16",
+    "traditional": "賽博朋克"
+  },
+  {
+    "id": "792391",
+    "title": "蒸汽朋克",
+    "canonical": "蒸汽朋克",
+    "aliases": [
+      "蒸汽朋克"
+    ],
+    "category": "文化与生活",
+    "sections": [
+      {
+        "text": "历史",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "20世纪初",
+        "level": 2,
+        "number": "1.1"
+      },
+      {
+        "text": "“蒸汽庞克”一词的起源",
+        "level": 2,
+        "number": "1.2"
+      },
+      {
+        "text": "平面作品",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "小说",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "移动城市系列",
+        "level": 3,
+        "number": "2.1.1"
+      },
+      {
+        "text": "漫画",
+        "level": 2,
+        "number": "2.2"
+      },
+      {
+        "text": "影视作品",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "电影",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "电视",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "动画",
+        "level": 2,
+        "number": "3.3"
+      },
+      {
+        "text": "欧美",
+        "level": 3,
+        "number": "3.3.1"
+      },
+      {
+        "text": "日本",
+        "level": 3,
+        "number": "3.3.2"
+      },
+      {
+        "text": "游戏作品",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "社会文化",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "参考",
+        "level": 1,
+        "number": "6"
+      }
+    ],
+    "revision": 95183815,
+    "fetchedAt": "2026-11-16",
+    "traditional": "蒸汽朋克"
+  },
+  {
+    "id": "7927498",
+    "title": "后室",
+    "canonical": "后室",
+    "aliases": [
+      "后室",
+      "後室"
+    ],
+    "category": "文化与生活",
+    "sections": [
+      {
+        "text": "起源",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "发展",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "回响",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "改编",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "电子游戏",
+        "level": 2,
+        "number": "4.1"
+      },
+      {
+        "text": "Youtube",
+        "level": 2,
+        "number": "4.2"
+      },
+      {
+        "text": "电影",
+        "level": 2,
+        "number": "4.3"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "注释",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "8"
+      }
+    ],
+    "revision": 95561817,
+    "fetchedAt": "2026-11-16",
+    "traditional": "後室"
+  },
+  {
+    "id": "5413407",
+    "title": "都市传说",
+    "canonical": "都市傳說",
+    "aliases": [
+      "都市傳說",
+      "都市传说"
+    ],
+    "category": "文化与生活",
+    "sections": [
+      {
+        "text": "命名",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "特征与传播",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "特征",
+        "level": 2,
+        "number": "2.1"
+      },
+      {
+        "text": "与相似事物的区别",
+        "level": 2,
+        "number": "2.2"
+      },
+      {
+        "text": "传播",
+        "level": 2,
+        "number": "2.3"
+      },
+      {
+        "text": "类型",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "普通现代生活类",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "灵异类",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "案例事件类",
+        "level": 2,
+        "number": "3.3"
+      },
+      {
+        "text": "现代工具或技术类",
+        "level": 2,
+        "number": "3.4"
+      },
+      {
+        "text": "真实生活现象衍生类",
+        "level": 2,
+        "number": "3.5"
+      },
+      {
+        "text": "虚拟世界类",
+        "level": 2,
+        "number": "3.6"
+      },
+      {
+        "text": "归类有错误或有争议的故事",
+        "level": 2,
+        "number": "3.7"
+      },
+      {
+        "text": "结构",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "象征与寓意",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "历史",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "搜集与考证",
+        "level": 1,
+        "number": "7"
+      },
+      {
+        "text": "文化影响",
+        "level": 1,
+        "number": "8"
+      },
+      {
+        "text": "注释",
+        "level": 1,
+        "number": "9"
+      },
+      {
+        "text": "参考资料",
+        "level": 1,
+        "number": "10"
+      },
+      {
+        "text": "书籍",
+        "level": 2,
+        "number": "10.1"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "11"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "12"
+      }
+    ],
+    "revision": 93532599,
+    "fetchedAt": "2026-11-16",
+    "traditional": "都市傳說"
+  },
+  {
+    "id": "540197",
+    "title": "食人",
+    "canonical": "食人",
+    "aliases": [
+      "食人"
+    ],
+    "category": "文化与生活",
+    "sections": [
+      {
+        "text": "理由与类型",
+        "level": 1,
+        "number": "1"
+      },
+      {
+        "text": "充当粮食",
+        "level": 2,
+        "number": "1.1"
+      },
+      {
+        "text": "习俗",
+        "level": 2,
+        "number": "1.2"
+      },
+      {
+        "text": "医疗保健需求",
+        "level": 2,
+        "number": "1.3"
+      },
+      {
+        "text": "文化常态",
+        "level": 1,
+        "number": "2"
+      },
+      {
+        "text": "特殊情况",
+        "level": 1,
+        "number": "3"
+      },
+      {
+        "text": "中国",
+        "level": 2,
+        "number": "3.1"
+      },
+      {
+        "text": "二战",
+        "level": 2,
+        "number": "3.2"
+      },
+      {
+        "text": "现代",
+        "level": 2,
+        "number": "3.3"
+      },
+      {
+        "text": "流行文化",
+        "level": 1,
+        "number": "4"
+      },
+      {
+        "text": "民间故事、传说、神话",
+        "level": 2,
+        "number": "4.1"
+      },
+      {
+        "text": "电影",
+        "level": 2,
+        "number": "4.2"
+      },
+      {
+        "text": "参见",
+        "level": 1,
+        "number": "5"
+      },
+      {
+        "text": "参考文献",
+        "level": 1,
+        "number": "6"
+      },
+      {
+        "text": "外部链接",
+        "level": 1,
+        "number": "7"
+      }
+    ],
+    "revision": 95018759,
+    "fetchedAt": "2026-11-16",
+    "traditional": "食人"
+  }
+]

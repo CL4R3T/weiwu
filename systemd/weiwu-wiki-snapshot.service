@@ -1,0 +1,12 @@
+[Unit]
+Description=Weiwu parse locally supplied Chinese Wikipedia snapshots
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=weiwu
+WorkingDirectory=/opt/weiwu
+EnvironmentFile=/opt/weiwu/.env
+ExecStart=/opt/weiwu/.venv/bin/python scripts/wiki_snapshot.py auto --directory /var/lib/weiwu/wiki-dumps --activate
+TimeoutStartSec=48h
