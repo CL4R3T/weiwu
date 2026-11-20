@@ -98,25 +98,27 @@ export DATABASE_URL='postgresql://weiwu:密码@127.0.0.1:5432/weiwu'
 
 应用只保存词条标题、摘要、目录、分类、别名、修订信息等必要字段；**不保存完整正文或图片**。
 
-官方目录：<https://dumps.wikimedia.org/zhwiki/latest/>。你只需要从**同一次快照**下载以下三个原始文件：
+官方目录：<https://dumps.wikimedia.org/zhwiki/latest/>。你只需要从**同一次快照**下载以下原始文件：
 
 1. `zhwiki-latest-pages-articles-multistream.xml.bz2`（2026-11 约 3.64 GB）——从 XML 提取标题、目录、重定向和导言摘要，原始正文只用于解析、不会写入题库。
 2. `zhwiki-latest-categorylinks.sql.gz`（约 265 MB）——官方分类连接关系。
-3. `zhwiki-latest-md5sums.txt`（约 21 KB）——用于本地核验前两份文件是否完整、同批次。**注意：清单内通常写的是 `zhwiki-20261101-*` 这样的日期文件名；程序会自动对应你下载的 `zhwiki-latest-*`，并核对月份。**
+3. `zhwiki-latest-md5sums.txt`（约 21 KB）——用于本地核验转储文件是否完整、同批次。**注意：清单内通常写的是 `zhwiki-20261101-*` 这样的日期文件名；程序会自动对应你下载的 `zhwiki-latest-*`，并核对月份。**
+4. 使用 `cl_target_id` 的分类转储（包括 2026-11）还需同次快照的 `zhwiki-YYYYMMDD-linktarget.sql.gz`，用来将分类目标 ID 还原为分类名。也支持对应的 `zhwiki-latest-linktarget.sql.gz`。
 
 不需要 `pages-meta-history`、完整历史、图片或 multistream 的 `index.txt`；摘要快照已停止提供，摘要从 XML 的导言提取。下载后**不要解压，也不要改文件名**。
 
-在服务器将三个文件放到以下位置（如果实际运行用户不是 `weiwu`，请用该用户能读写的目录及权限）：
+在服务器将文件放到以下位置（如果实际运行用户不是 `weiwu`，请用该用户能读写的目录及权限）：
 
 ```text
 /var/lib/weiwu/wiki-dumps/
   2026-11/
     zhwiki-latest-pages-articles-multistream.xml.bz2
     zhwiki-latest-categorylinks.sql.gz
+    zhwiki-20261101-linktarget.sql.gz
     zhwiki-latest-md5sums.txt
 ```
 
-可用 WinSCP/SFTP 上传。下一月就在同一个父目录新建 `2026-12`，**不要覆盖上个月文件**。名称里的 `latest` 是官网下载时的文件名，月份由其外层文件夹标识；务必在官网下载文件轮换前取齐三份，否则校验失败。
+可用 WinSCP/SFTP 上传。下一月就在同一个父目录新建 `2026-12`，**不要覆盖上个月文件**。名称里的 `latest` 是官网下载时的文件名，月份由其外层文件夹标识；务必在官网下载文件轮换前取齐所需文件，否则校验失败。
 
 文件放好后，先验证而不连接数据库（校验 3.9 GB 文件可能耗时数分钟）：
 
@@ -124,7 +126,13 @@ export DATABASE_URL='postgresql://weiwu:密码@127.0.0.1:5432/weiwu'
 .venv/bin/python scripts/wiki_snapshot.py check --directory /var/lib/weiwu/wiki-dumps/2026-11
 ```
 
-两个大文件均出现 `Verified local` 后，才进行解析。程序不会自动下载或补齐任何缺失文件。服务器需预留足够的磁盘空间用于压缩包、临时分类缓存和 PostgreSQL 数据；建议至少 100 GB 可用空间。
+各转储文件均出现 `Verified local` 后，才进行解析。程序不会自动下载或补齐任何缺失文件。服务器需预留足够的磁盘空间用于压缩包、临时分类缓存和 PostgreSQL 数据；建议至少 100 GB 可用空间。
+
+已启用的快照若因旧版导入器丢失原始分类，在配置好同一数据库的 `DATABASE_URL` 后，可以单独回填。此命令会重新读取完整转储并创建临时 SQLite 索引，只处理该快照中原始分类为空且没有分类记录的词条。成功匹配且原状态为 `unclassified` 的词条恢复为 `pending_views`。
+
+```bash
+.venv/bin/python scripts/wiki_snapshot.py repair-categories --directory /var/lib/weiwu/wiki-dumps/2026-11 --snapshot 2026-11
+```
 
 建议先测试导入小样本；在测试库中运行：
 

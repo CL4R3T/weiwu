@@ -2,7 +2,7 @@
 """Verify manually downloaded Chinese Wikipedia dumps, stage and activate TOC snapshots.
 
 Requires psycopg[binary] and mwparserfromhell. On the server:
-  # Put three official "zhwiki-latest-*" files in wiki-dumps/2026-11 first.
+  # Put matching official dumps and their MD5 manifest in wiki-dumps/2026-11.
   python scripts/wiki_snapshot.py check --directory wiki-dumps/2026-11
   python scripts/wiki_snapshot.py stage --directory wiki-dumps/2026-11 --snapshot 2026-11
   python scripts/wiki_snapshot.py classify --directory wiki-dumps/2026-11 --snapshot 2026-11
@@ -28,6 +28,7 @@ from pathlib import Path
 import re
 import sqlite3
 import sys
+import tempfile
 import time
 import unicodedata
 import xml.etree.ElementTree as ET
@@ -44,7 +45,75 @@ FILES = [
 CHECKSUM_FILE = 'zhwiki-latest-md5sums.txt'
 NAMESPACE = '{http://www.mediawiki.org/xml/export-0.11/}'
 HEAD = re.compile(r'^(={2,6})\s*(.*?)\s*\1\s*$', re.M)
-CAT_ROW = re.compile(r"\((\d+),'((?:\\.|[^'\\])*)',")
+SQL_VALUE = r"(?:(?:_binary\s*)?'(?:\\.|[^'\\])*'|0x[0-9a-fA-F]*|-?\d+|NULL)"
+SQL_ROW = re.compile(rf"\(\s*({SQL_VALUE}(?:\s*,\s*{SQL_VALUE})*)\s*\)\s*([,;])")
+
+
+def dump_columns(path, table):
+    with gzip.open(path, 'rt', encoding='utf-8', errors='replace') as stream:
+        for line in stream:
+            if line.startswith(f'CREATE TABLE `{table}`'):
+                columns = []
+                for line in stream:
+                    if line.startswith(')'):
+                        return columns
+                    match = re.match(r'\s*`([a-z_]+)`', line)
+                    if match:
+                        columns.append(match[1])
+            if line.startswith('INSERT INTO'):
+                break
+    raise ValueError(f'Missing CREATE TABLE for {table}')
+
+
+def dump_rows(path, table, fields):
+    columns = dump_columns(path, table)
+    table_name = re.escape(table)
+    header = re.compile(
+        rf'\s*INSERT\s+(?:IGNORE\s+)?INTO\s+(?:`{table_name}`|{table_name})\s*'
+        r'(?:\((?P<columns>[\w`,\s]+)\)\s*)?VALUES\b', re.I)
+    value = re.compile(SQL_VALUE)
+    in_values = False
+    saw_insert = False
+    with measured_file(path, table) as raw, gzip.open(raw, 'rt', encoding='utf-8', errors='replace') as stream:
+        for line_no, line in enumerate(stream, 1):
+            pos = 0
+            if not in_values:
+                if line.lstrip()[:6].upper() != 'INSERT':
+                    continue
+                start = header.match(line)
+                if not start:
+                    raise ValueError(f'{table}:{line_no}: unsupported INSERT header: {line[:160]!r}')
+                explicit = start['columns']
+                order = [c.strip().strip("`") for c in explicit.split(',')] if explicit else columns
+                indices = [order.index(field) for field in fields]
+                pos = start.end()
+                in_values = saw_insert = True
+            while pos < len(line):
+                if line[pos].isspace():
+                    pos += 1
+                    continue
+                match = SQL_ROW.match(line, pos)
+                if not match:
+                    raise ValueError(f'{table}:{line_no}: unsupported VALUES syntax at offset {pos}: {line[pos:pos+160]!r}')
+                cells = value.findall(match[1])
+                if len(cells) != len(order):
+                    raise ValueError(f'Unexpected column count in {table}')
+                yield tuple(cells[i] for i in indices)
+                if match[2] == ';':
+                    in_values = False
+                    break
+                pos = match.end()
+    if not saw_insert or in_values:
+        raise ValueError(f'{table}: missing or incomplete INSERT statements in {path.name}')
+
+
+def dump_title(cell):
+    cell = cell.removeprefix('_binary').lstrip()
+    if cell.startswith("'"):
+        return mysql_unescape(cell[1:-1])
+    if cell.startswith('0x'):
+        return bytes.fromhex(cell[2:]).decode().replace('_', ' ')
+    raise ValueError('Unexpected category title format')
 
 
 def db():
@@ -104,8 +173,19 @@ def verify_local(directory):
         raise RuntimeError(
             'MD5 list lacks a complete matching snapshot for {}. '
             'Download all three files together from the same Wikimedia release.'.format(directory))
-    for name in FILES:
-        path = directory / name
+    paths = [directory / name for name in FILES]
+    if 'cl_target_id' in dump_columns(paths[1], 'categorylinks'):
+        suffix = 'linktarget.sql.gz'
+        dated_name = f'zhwiki-{common_runs[-1]}-{suffix}' if common_runs else ''
+        latest_name = 'zhwiki-latest-' + suffix
+        name = dated_name if dated_name and (directory / dated_name).is_file() else latest_name
+        digest = checksums.get(dated_name or latest_name)
+        if not digest or not (directory / name).is_file():
+            raise RuntimeError(f'Missing matching {dated_name or latest_name} or its checksum')
+        expected[name] = digest
+        paths.append(directory / name)
+    for path in paths:
+        name = path.name
         if path.stat().st_size < 100:
             raise RuntimeError(f'Dump file is unexpectedly small: {path}')
         md5 = hashlib.md5()
@@ -115,14 +195,14 @@ def verify_local(directory):
         if md5.hexdigest() != expected[name]:
             raise RuntimeError(f'Checksum mismatch for {path}; do not use this dump; check its month and re-download it')
         print('Verified local:', path.name, f'({path.stat().st_size:,} bytes)')
-    return tuple(directory / name for name in FILES)
+    return tuple(paths)
 
 
 def mysql_unescape(s):
     return re.sub(r'\\(.)', lambda m: {'n': '\n', 'r': '\r', 't': '\t', '0': '\0'}.get(m[1], m[1]), s).replace('_', ' ')
 
 
-def category_catalog(path, cache):
+def category_catalog(path, cache, target_path=None):
     conn = sqlite3.connect(cache)
     conn.execute('PRAGMA journal_mode=WAL')
     conn.execute('PRAGMA synchronous=NORMAL')
@@ -130,24 +210,21 @@ def category_catalog(path, cache):
     conn.execute('CREATE TABLE IF NOT EXISTS category_pages(page_id INTEGER PRIMARY KEY,name TEXT UNIQUE)')
     conn.execute('DELETE FROM links')
     conn.execute('DELETE FROM category_pages')
-    count = 0
-    rows = []
-    with measured_file(path, 'Reading category dump') as measured, \
-         gzip.open(measured, 'rt', encoding='utf-8', errors='replace') as stream:
-        for line in stream:
-            if not line.startswith('INSERT INTO'):
-                continue
-            for match in CAT_ROW.finditer(line):
-                rows.append((int(match[1]), mysql_unescape(match[2])))
-                if len(rows) >= 10_000:
-                    conn.executemany('INSERT INTO links VALUES (?,?)', rows)
-                    count += len(rows)
-                    rows.clear()
-            if count and count % 1_000_000 < 10_000:
-                print('Category links:', count, file=sys.stderr)
-    if rows:
-        conn.executemany('INSERT INTO links VALUES (?,?)', rows)
-        count += len(rows)
+    if target_path:
+        conn.execute('CREATE TEMP TABLE targets(id INTEGER PRIMARY KEY,title TEXT NOT NULL)')
+        targets = dump_rows(target_path, 'linktarget', ['lt_id', 'lt_namespace', 'lt_title'])
+        conn.executemany('INSERT INTO targets VALUES (?,?)',
+                         ((int(i), dump_title(title)) for i, ns, title in targets if ns == '14'))
+        edges = dump_rows(path, 'categorylinks', ['cl_from', 'cl_target_id'])
+        conn.executemany('INSERT INTO links VALUES (?,(SELECT title FROM targets WHERE id=?))', edges)
+        if conn.execute('SELECT 1 FROM links WHERE category IS NULL LIMIT 1').fetchone():
+            raise ValueError('Unresolved category target ID; check dump releases')
+    else:
+        edges = dump_rows(path, 'categorylinks', ['cl_from', 'cl_to'])
+        conn.executemany('INSERT INTO links VALUES (?,?)', ((int(i), dump_title(title)) for i, title in edges))
+    count = conn.execute('SELECT COUNT(*) FROM links').fetchone()[0]
+    if not count:
+        raise ValueError('No category links imported')
     conn.commit()
     conn.execute('CREATE INDEX IF NOT EXISTS links_page ON links(page_id)')
     conn.execute('CREATE INDEX IF NOT EXISTS links_category ON links(category)')
@@ -235,9 +312,9 @@ def wiki_pages(path):
 
 def stage(directory, snapshot, max_pages=None):
     # Before truncating any staging tables, verify every local input.
-    compressed, category_file = verify_local(directory)
+    compressed, category_file, *targets = verify_local(directory)
     cache = directory / 'category-cache.sqlite3'
-    catalog = category_catalog(category_file, cache)
+    catalog = category_catalog(category_file, cache, *targets)
     with db() as pgconn:
         with pgconn.cursor() as cur:
             cur.execute('CREATE TABLE IF NOT EXISTS wiki_stage_articles (LIKE articles INCLUDING ALL)')
@@ -331,10 +408,12 @@ def create_topic_map(catalog, max_depth):
         for depth in range(max_depth + 1):
             if not frontier:
                 break
-            nodes = [(name, path) for name, path in frontier if name not in visited]
+            nodes = []
+            for name, path in frontier:
+                if name not in visited:
+                    nodes.append((name, path))
+                    visited.add(name)
             frontier = []
-            for name, _ in nodes:
-                visited.add(name)
             catalog.executemany('INSERT OR REPLACE INTO topic_map VALUES (?,?,?,?,?)',
                                 [(name, topic['id'], topic['group'], depth, json.dumps(path, ensure_ascii=False))
                                  for name, path in nodes])
@@ -353,6 +432,34 @@ def create_topic_map(catalog, max_depth):
             catalog.commit()
     catalog.commit()
     return {row['id']: row for row in roots}
+
+
+def topic_names(topics):
+    return '、'.join(dict.fromkeys(t['name'] for t in topics)) or '待归类'
+
+
+def match_categories(catalog, roots, categories):
+    best = {}
+    if categories:
+        placeholders = ','.join('?' for _ in categories)
+        for cat, topic_id, _, distance, path in catalog.execute(
+            f'SELECT category,topic,group_id,distance,path FROM topic_map WHERE category IN ({placeholders})', categories):
+            prev = best.get(topic_id)
+            if prev is None or distance < prev[0]:
+                best[topic_id] = (distance, json.loads(path), cat)
+    # Mirror the live classifier: stop at the nearest category
+    # ancestor depth, keeping every topic at that depth only.
+    if best:
+        nearest = min(value[0] for value in best.values())
+        best = {key: value for key, value in best.items() if value[0] == nearest}
+    found = []
+    for topic_id, (distance, path, cat) in best.items():
+        topic = roots[topic_id]
+        # Existing game expects article category -> ancestors order.
+        label_path = ['Category:' + cat] + ['Category:' + x for x in path[-2::-1]]
+        found.append({'id': topic_id, 'name': topic['name'], 'group': topic['group'],
+                      'groupName': topic['groupName'], 'path': label_path})
+    return sorted(found, key=lambda t: (len(t['path']), t['id']))
 
 
 def classify(directory, snapshot, max_depth):
@@ -383,29 +490,10 @@ def classify(directory, snapshot, max_depth):
                 for pageid, data in batch:
                     article = json.loads(data)
                     categories = article['categories']
-                    best = {}
-                    if categories:
-                        placeholders = ','.join('?' for _ in categories)
-                        for cat, topic_id, _, distance, path in catalog.execute(
-                            f'SELECT category,topic,group_id,distance,path FROM topic_map WHERE category IN ({placeholders})', categories):
-                            prev = best.get(topic_id)
-                            if prev is None or distance < prev[0]:
-                                best[topic_id] = (distance, json.loads(path), cat)
-                    # Mirror the live classifier: stop at the nearest category
-                    # ancestor depth, keeping every topic at that depth only.
-                    if best:
-                        nearest = min(value[0] for value in best.values())
-                        best = {key: value for key, value in best.items() if value[0] == nearest}
-                    found = []
-                    for topic_id, (distance, path, cat) in best.items():
-                        topic = roots[topic_id]
-                        # Existing game expects article category -> ancestors order.
-                        label_path = ['Category:' + cat] + ['Category:' + x for x in path[-2::-1]]
-                        found.append({'id': topic_id, 'name': topic['name'], 'group': topic['group'],
-                                      'groupName': topic['groupName'], 'path': label_path})
-                        assignments.append((pageid, topic_id, topic['group'], json.dumps(label_path, ensure_ascii=False), len(label_path)))
-                    article['topics'] = sorted(found, key=lambda t: (len(t['path']), t['id']))
-                    article['category'] = '、'.join(dict.fromkeys(t['name'] for t in article['topics'])) or '待归类'
+                    article['topics'] = match_categories(catalog, roots, categories)
+                    article['category'] = topic_names(article['topics'])
+                    for t in article['topics']:
+                        assignments.append((pageid, t['id'], t['group'], json.dumps(t['path'], ensure_ascii=False), len(t['path'])))
                     article['taxonomyVersion'] = 1
                     updates.append((pageid, article['category'], json.dumps(article, ensure_ascii=False)))
                 with conn.cursor() as cur:
@@ -443,6 +531,9 @@ def activate(snapshot, confirm, min_articles):
                            (WHERE data::jsonb->>'snapshot' = %s) FROM wiki_stage_articles""", (snapshot,))
             if cur.fetchone() != (result[0], result[0]):
                 raise RuntimeError('Staging rows do not match the classified snapshot; refusing activation')
+            cur.execute('SELECT EXISTS(SELECT 1 FROM wiki_stage_topics)')
+            if not cur.fetchone()[0]:
+                raise RuntimeError('Snapshot has zero topic assignments; check category inputs before activation')
             cur.execute('SELECT to_regclass(%s)', (archive,))
             if cur.fetchone()[0] is not None:
                 raise RuntimeError(f'Archive {archive} already exists; refusing to overwrite a rollback copy')
@@ -503,6 +594,62 @@ def activate(snapshot, confirm, min_articles):
     print('Player tables, daily games, filters, editorial selections and scores were retained.')
 
 
+def repair_categories(directory, snapshot, max_depth):
+    """Backfill active snapshot rows whose source categories and assignments are empty."""
+    if directory.name != snapshot:
+        raise ValueError('Use the active YYYY-MM snapshot and its matching month directory')
+    compressed, category_file, *targets = verify_local(directory)
+    with tempfile.TemporaryDirectory(dir=directory) as work, db() as conn:
+        catalog = category_catalog(category_file, Path(work) / 'repair.sqlite3', *targets)
+        try:
+            catalog.executemany('INSERT OR IGNORE INTO category_pages VALUES (?,?)',
+                                ((pageid, title.split(':', 1)[-1].replace('_', ' '))
+                                 for ns, title, pageid, *_ in wiki_pages(compressed) if ns == 14))
+            roots = create_topic_map(catalog, max_depth)
+            with conn.cursor() as cur:
+                cur.execute("SELECT state FROM wiki_snapshots WHERE id=%s FOR SHARE", (snapshot,))
+                if cur.fetchone() != ('active',):
+                    raise ValueError('Snapshot is not active')
+                cur.execute('CREATE TEMP TABLE repair(id bigint PRIMARY KEY, patch jsonb, label text) ON COMMIT DROP')
+                with conn.cursor(name='missing_categories') as reader:
+                    reader.execute("""SELECT id FROM articles a WHERE data::jsonb->>'snapshot'=%s
+                        AND data::jsonb->'categories'='[]'::jsonb
+                        AND NOT EXISTS(SELECT 1 FROM article_topics t WHERE t.page_id=a.id)""", (snapshot,))
+                    # FETCH before COPY; the same connection cannot run a query during COPY.
+                    matched = 0
+                    recovered = 0
+                    while batch := reader.fetchmany(1000):
+                        with cur.copy('COPY repair(id,patch,label) FROM STDIN') as copy:
+                            for (pageid,) in batch:
+                                cats = [r[0] for r in catalog.execute('SELECT category FROM links WHERE page_id=?', (pageid,))]
+                                if not cats:
+                                    continue
+                                topics = match_categories(catalog, roots, cats)
+                                label = topic_names(topics)
+                                patch = dict(categories=cats, topics=topics, category=label, taxonomyVersion=1)
+                                copy.write_row((pageid, json.dumps(patch, ensure_ascii=False), label))
+                                matched += bool(topics)
+                                recovered += 1
+                if recovered and not matched:
+                    raise ValueError('No topic matches; live rows were not changed')
+                cur.execute('LOCK TABLE articles, article_topics IN SHARE ROW EXCLUSIVE MODE')
+                cur.execute("""DELETE FROM repair r WHERE NOT EXISTS(
+                    SELECT 1 FROM articles a WHERE a.id=r.id AND a.data::jsonb->>'snapshot'=%s
+                    AND a.data::jsonb->'categories'='[]'::jsonb)
+                    OR EXISTS(SELECT 1 FROM article_topics t WHERE t.page_id=r.id)""", (snapshot,))
+                cur.execute("""UPDATE articles a SET data=(a.data::jsonb || r.patch)::text, category=r.label,
+                    status=CASE WHEN a.status='unclassified' AND jsonb_array_length(r.patch->'topics')>0
+                                THEN 'pending_views' ELSE a.status END
+                    FROM repair r WHERE a.id=r.id""")
+                updated = cur.rowcount
+                cur.execute("""INSERT INTO article_topics(page_id,topic,group_id,path,distance)
+                    SELECT r.id,t->>'id',t->>'group',(t->'path')::text,jsonb_array_length(t->'path')
+                    FROM repair r CROSS JOIN LATERAL jsonb_array_elements(r.patch->'topics') AS t""")
+                print('Restored raw categories for', updated, 'articles;', cur.rowcount, 'topic assignments.')
+        finally:
+            catalog.close()
+
+
 def automatic(directory, max_depth, should_activate):
     """Operate on the newest local YYYY-MM directory; never access the Internet."""
     if not directory.is_dir():
@@ -549,14 +696,14 @@ def automatic(directory, max_depth, should_activate):
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     sub = ap.add_subparsers(dest='action', required=True)
-    for action in ('check', 'stage', 'classify'):
+    for action in ('check', 'stage', 'classify', 'repair-categories'):
         p = sub.add_parser(action)
         p.add_argument('--directory', type=Path, default=Path('wiki-dumps'))
         if action != 'check':
             p.add_argument('--snapshot', required=True)
         if action == 'stage':
             p.add_argument('--max-pages', type=int, help='TEST ONLY: stop after N eligible pages')
-        if action == 'classify':
+        if action in ('classify', 'repair-categories'):
             p.add_argument('--max-depth', type=int, default=7)
     p = sub.add_parser('activate')
     p.add_argument('--snapshot', required=True)
@@ -574,6 +721,8 @@ def main():
         stage(args.directory, args.snapshot, args.max_pages)
     elif args.action == 'classify':
         classify(args.directory, args.snapshot, args.max_depth)
+    elif args.action == 'repair-categories':
+        repair_categories(args.directory, args.snapshot, args.max_depth)
     elif args.action == 'activate':
         activate(args.snapshot, args.confirm, args.min_articles)
     elif args.action == 'auto':

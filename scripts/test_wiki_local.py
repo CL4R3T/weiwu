@@ -22,7 +22,8 @@ spec.loader.exec_module(wiki)
 def make_dump(directory):
     # Compressed mock archives large enough for the minimum-size check.
     xml = bz2.compress(b'<mediawiki>' + bytes(range(256)) * 8 + b'</mediawiki>')
-    cats = gzip.compress(b'INSERT INTO categorylinks VALUES ' + bytes(range(256)) * 8)
+    cats = gzip.compress(b"CREATE TABLE `categorylinks` (\n  `cl_from` int,\n  `cl_to` varbinary(255)\n) ENGINE=InnoDB;\n"
+                         b"INSERT INTO `categorylinks` VALUES (1,'Example');\n")
     files = {wiki.FILES[0]: xml, wiki.FILES[1]: cats}
     for name, data in files.items():
         (directory / name).write_bytes(data)
@@ -34,6 +35,42 @@ def make_dump(directory):
 
 
 class LocalSnapshots(unittest.TestCase):
+    def test_dump_insert_layouts(self):
+        ddl = "CREATE TABLE `linktarget` (\n  `lt_id` int,\n  `lt_title` text\n) ENGINE=InnoDB;\n"
+        inserts = (" INSERT INTO linktarget VALUES\n(1, 'One'),\n(2,'Two');\n"
+                   "INSERT INTO `linktarget` (`lt_title`, `lt_id`) VALUES(_binary 'Three',3);\n")
+        with tempfile.TemporaryDirectory() as temp:
+            path = Path(temp) / 'targets.gz'
+            path.write_bytes(gzip.compress((ddl + inserts).encode()))
+            rows = wiki.dump_rows(path, 'linktarget', ['lt_id', 'lt_title'])
+            self.assertEqual([(i, wiki.dump_title(t)) for i, t in rows],
+                             [('1','One'),('2','Two'),('3','Three')])
+            path.write_bytes(gzip.compress((ddl + 'INSERT DELAYED INTO linktarget VALUES (1,2);').encode()))
+            with self.assertRaisesRegex(ValueError, 'unsupported INSERT header'):
+                list(wiki.dump_rows(path, 'linktarget', ['lt_id']))
+
+    def test_modern_graph(self):
+        def write_table(path, name, columns, rows):
+            ddl = ',\n'.join(f'  `{col}` TEXT' for col in columns)
+            path.write_bytes(gzip.compress(
+                f'CREATE TABLE `{name}` (\n{ddl}\n) ENGINE=InnoDB;\nINSERT INTO `{name}` VALUES {rows};\n'.encode()))
+        with tempfile.TemporaryDirectory() as temp:
+            folder = Path(temp)
+            cats, targets = folder / 'cats.gz', folder / 'targets.gz'
+            write_table(targets, 'linktarget', ['lt_id','lt_namespace','lt_title'],
+                        "(90,14,'植物'),(91,14,'蕨类'),(92,0,'Ignore')")
+            write_table(cats, 'categorylinks', ['cl_from','cl_sortkey','cl_timestamp','cl_sortkey_prefix','cl_type','cl_collation_id','cl_target_id'],
+                        "(1,0xFF,'2026-01-01','a),(b','page',2,91),(42,'','','','subcat',2,90)")
+            catalog = wiki.category_catalog(cats, folder / 'cache', targets)
+            try:
+                catalog.execute("INSERT INTO category_pages VALUES (42,'蕨类')")
+                roots = wiki.create_topic_map(catalog, 7)
+                raw = [r[0] for r in catalog.execute('SELECT category FROM links WHERE page_id=1')]
+                self.assertEqual(raw, ['蕨类'])
+                self.assertEqual([t['name'] for t in wiki.match_categories(catalog, roots, raw)], ['植物'])
+            finally:
+                catalog.close()
+
     def test_correct_files_are_accepted(self):
         with tempfile.TemporaryDirectory() as temp:
             folder = Path(temp) / '2026-11'
